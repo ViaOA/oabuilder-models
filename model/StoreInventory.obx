@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='05/16/20 09:44 PM'>
+<Model id="g11486" class="com.viaoa.builder.model.Model">
+  <Name>StoreInventory</Name>
+  <RootDirectory>C:\Users\vvia\git\oabuilder-models\model</RootDirectory>
+  <FileName>C:\Users\vvia\git\oabuilder-models\model\StoreInventory.obx</FileName>
+  <DisplayName>Store Inventory</DisplayName>
+  <LowerName>storeInventory</LowerName>
+  <SizeType>1</SizeType>
+  <Scale>1.0</Scale>
+  <MoveMode>false</MoveMode>
+  <ShowAllLinks>true</ShowAllLinks>
+  <ShowHiddenObjects>true</ShowHiddenObjects>
+  <SourceDirectory>src\main\java</SourceDirectory>
+  <MinimizeLookups>false</MinimizeLookups>
+  <OABuilderVersion>202003080</OABuilderVersion>
+  <LowerAbbrev>si</LowerAbbrev>
+  <PackageName>com.oreilly.si</PackageName>
+  <Abbrev>SI</Abbrev>
+  <Hilite>true</Hilite>
+  <ShowLookups>true</ShowLookups>
+  <objectDefs total="2">
+    <ObjectDef id="g11489">
+      <Name>ItemMaster</Name>
+      <Bounds>383,120,89,57</Bounds>
+      <DataSourceName>ItemMaster</DataSourceName>
+      <DisplayName>Item Master</DisplayName>
+      <LocalOnly>false</LocalOnly>
+      <PluralName>ItemMasters</PluralName>
+      <ShortName>itm</ShortName>
+      <Created>2020-05-16</Created>
+      <AddToCache>true</AddToCache>
+      <LowerName>itemMaster</LowerName>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <PluralLowerName>itemMasters</PluralLowerName>
+      <PkeyDataSourceName>PkItemMaster</PkeyDataSourceName>
+      <PluralDisplayName>Item Masters</PluralDisplayName>
+      <model idref="g11486"/>
+      <properties total="2">
+        <Property id="g11490">
+          <DataSourceName>Id</DataSourceName>
+          <AutoAssign>true</AutoAssign>
+          <Timestamp>false</Timestamp>
+          <Unique>true</Unique>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Type>int</Type>
+          <DecimalPlaces>0</DecimalPlaces>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Name>id</Name>
+          <UpperName>Id</UpperName>
+          <DisplayName>Id</DisplayName>
+          <Hide>true</Hide>
+          <Created>2020-05-16</Created>
+          <objectDef idref="g11489"/>
+        </Property>
+        <Property id="g11493">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <Type>DateTime</Type>
+          <DecimalPlaces>0</DecimalPlaces>
+          <DisplayLength>15</DisplayLength>
+          <MaxLength>40</MaxLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Name>created</Name>
+          <UpperName>Created</UpperName>
+          <DisplayName>Created</DisplayName>
+          <Created>2020-05-16</Created>
+          <objectDef idref="g11489"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g11496">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g11489"/>
+        <EndProperty idref="g11490"/>
+        <Property idref="g11490"/>
+      </DisplayPropertyPath>
+      <UIProperties total="2">
+        <UIProperty id="g11491">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <ObjectDef idref="g11489"/>
+          <PropertyPath id="g11492">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g11489"/>
+            <EndProperty idref="g11490"/>
+            <Property idref="g11490"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g11494">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g11489"/>
+          <PropertyPath id="g11495">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g11489"/>
+            <EndProperty idref="g11493"/>
+            <Property idref="g11493"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g11498">
+      <Name>ItemRestriction</Name>
+      <Bounds>877,148,108,73</Bounds>
+      <DataSourceName>ItemRestriction</DataSourceName>
+      <DisplayName>Item Restriction</DisplayName>
+      <LocalOnly>false</LocalOnly>
+      <PluralName>ItemRestrictions</PluralName>
+      <ShortName>itr</ShortName>
+      <Created>2020-05-16</Created>
+      <AddToCache>true</AddToCache>
+      <LowerName>itemRestriction</LowerName>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <PluralLowerName>itemRestrictions</PluralLowerName>
+      <PkeyDataSourceName>PkItemRestriction</PkeyDataSourceName>
+      <PluralDisplayName>Item Restrictions</PluralDisplayName>
+      <model idref="g11486"/>
+      <properties total="3">
+        <Property id="g11499">
+          <DataSourceName>Id</DataSourceName>
+          <AutoAssign>true</AutoAssign>
+          <Timestamp>false</Timestamp>
+          <Unique>true</Unique>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Type>int</Type>
+          <DecimalPlaces>0</DecimalPlaces>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Name>id</Name>
+          <UpperName>Id</UpperName>
+          <DisplayName>Id</DisplayName>
+          <Hide>true</Hide>
+          <Created>2020-05-16</Created>
+          <objectDef idref="g11498"/>
+        </Property>
+        <Property id="g11502">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <Type>DateTime</Type>
+          <DecimalPlaces>0</DecimalPlaces>
+          <DisplayLength>15</DisplayLength>
+          <MaxLength>40</MaxLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Name>created</Name>
+          <UpperName>Created</UpperName>
+          <DisplayName>Created</DisplayName>
+          <Created>2020-05-16</Created>
+          <objectDef idref="g11498"/>
+        </Property>
+        <Property id="g11507">
+          <DataSourceName>SearchValue</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <Type>String</Type>
+          <DecimalPlaces>0</DecimalPlaces>
+          <DisplayLength>20</DisplayLength>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Search Value</GridColumnName>
+          <Name>searchValue</Name>
+          <UpperName>SearchValue</UpperName>
+          <DisplayName>Search Value</DisplayName>
+          <Created>2020-05-16</Created>
+          <objectDef idref="g11498"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g11505">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g11498"/>
+        <EndProperty idref="g11499"/>
+        <Property idref="g11499"/>
+      </DisplayPropertyPath>
+      <UIProperties total="3">
+        <UIProperty id="g11500">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <ObjectDef idref="g11498"/>
+          <PropertyPath id="g11501">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g11498"/>
+            <EndProperty idref="g11499"/>
+            <Property idref="g11499"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g11503">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g11498"/>
+          <PropertyPath id="g11504">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g11498"/>
+            <EndProperty idref="g11502"/>
+            <Property idref="g11502"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g11508">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g11498"/>
+          <PropertyPath id="g11509">
+            <PropertyPath>searchValue</PropertyPath>
+            <FromObjectDef idref="g11498"/>
+            <EndProperty idref="g11507"/>
+            <Property idref="g11507"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+  </objectDefs>
+  <Changes total="2">
+    <Change id="g11497">
+      <Type>0</Type>
+      <DisplayName>OBJECT ItemMaster Added</DisplayName>
+      <Object idref="g11489"/>
+      <UpdateCode><![CDATA[-- OBJECT ItemMaster Added
+-- Table ItemMaster For ItemMaster
+CREATE TABLE ItemMaster(
+    Id int NOT NULL,
+    Created DATETIME
+);
+ALTER TABLE ItemMaster Add Constraint PkItemMaster PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <model idref="g11486"/>
+    </Change>
+    <Change id="g11506">
+      <Type>0</Type>
+      <DisplayName>OBJECT ItemRestriction Added</DisplayName>
+      <Object idref="g11498"/>
+      <UpdateCode><![CDATA[-- OBJECT ItemRestriction Added
+-- Table ItemRestriction For ItemRestriction
+CREATE TABLE ItemRestriction(
+    Id int NOT NULL,
+    Created DATETIME,
+    SearchValue VARCHAR(0)
+);
+ALTER TABLE ItemRestriction Add Constraint PkItemRestriction PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <model idref="g11486"/>
+    </Change>
+  </Changes>
+  <DBMetaData id="g11488">
+    <DistinctKeyword>DISTINCT</DistinctKeyword>
+    <OuterjoinStart></OuterjoinStart>
+    <LikeKeyword>LIKE</LikeKeyword>
+    <RightBracket></RightBracket>
+    <LeftBracket></LeftBracket>
+    <OuterjoinEnd></OuterjoinEnd>
+  </DBMetaData>
+</Model>
+</OAXML>
