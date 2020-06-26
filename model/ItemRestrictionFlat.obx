@@ -1,0 +1,2471 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='06/04/20 09:44 AM'>
+<Model id="g4921" class="com.viaoa.builder.model.Model">
+  <SizeType>1</SizeType>
+  <LowerName>itemRestrictionFlat</LowerName>
+  <ShowLookups>true</ShowLookups>
+  <MinimizeLookups>false</MinimizeLookups>
+  <ShowHiddenObjects>true</ShowHiddenObjects>
+  <ShowAllLinks>true</ShowAllLinks>
+  <Hilite>true</Hilite>
+  <MoveMode>false</MoveMode>
+  <OABuilderVersion>202003080</OABuilderVersion>
+  <RootDirectory>\home\vvia\git\oabuilder-models\model</RootDirectory>
+  <SourceDirectory>src\main\java</SourceDirectory>
+  <Scale>1.0</Scale>
+  <Name>ItemRestrictionFlat</Name>
+  <FileName>/home/vvia/git/oabuilder-models/model/ItemRestrictionFlat.obx</FileName>
+  <DisplayName>Item Restriction Flat</DisplayName>
+  <objectDefs total="1">
+    <ObjectDef id="g4924">
+      <CustomCode><![CDATA[@Override
+public void save() {
+    searchValue = null;
+    getSearchValue();
+    super.save();
+}
+]]></CustomCode>
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>itr</ShortName>
+      <PluralLowerName>itemRestrictions</PluralLowerName>
+      <Created>2020-04-13</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>Item Restrictions</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>itemRestriction</LowerName>
+      <PkeyDataSourceName>PkItemRestriction</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#FF8080</Color>
+      <Bounds>340,60,150,419</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>ItemRestriction</DataSourceName>
+      <PluralName>ItemRestrictions</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>ItemRestriction</Name>
+      <DisplayName>Item Restriction</DisplayName>
+      <model idref="g4921"/>
+      <properties total="20">
+        <Property id="g4925">
+          <AutoAssign>true</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Id</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Id</UpperName>
+          <Html>false</Html>
+          <Name>id</Name>
+          <Error>false</Error>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4926">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>DateTime</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Created</UpperName>
+          <Html>false</Html>
+          <Name>created</Name>
+          <Error>false</Error>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4927">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>LevelType</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Level Type</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>LevelType</UpperName>
+          <Html>false</Html>
+          <Name>levelType</Name>
+          <Error>false</Error>
+          <DisplayName>Level Type</DisplayName>
+          <NameValues total="6">
+            <NameValue id="g4928">
+              <Name>Unassigned</Name>
+              <Value>0</Value>
+              <DisplayName>Unassigned</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+            <NameValue id="g4929">
+              <Name>Unknown</Name>
+              <Value>1</Value>
+              <DisplayName>Unknown</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+            <NameValue id="g4930">
+              <Name>Line</Name>
+              <Value>2</Value>
+              <DisplayName>Line</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+            <NameValue id="g4931">
+              <Name>ProductLine</Name>
+              <Value>3</Value>
+              <DisplayName>Product Line</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+            <NameValue id="g4932">
+              <Name>SubProductLine</Name>
+              <Value>4</Value>
+              <DisplayName>Sub Product Line</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+            <NameValue id="g4933">
+              <Name>LineItem</Name>
+              <Value>5</Value>
+              <DisplayName>Line Item</DisplayName>
+              <Property idref="g4927"/>
+            </NameValue>
+          </NameValues>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4934">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Line</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>3</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Line</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>3</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Line</UpperName>
+          <Html>false</Html>
+          <Name>line</Name>
+          <Error>false</Error>
+          <DisplayName>Line</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4935">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>ProductLineCode</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>17</GridColumnLength>
+          <GridColumnName>Product Line Code</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>ProductLineCode</UpperName>
+          <Html>false</Html>
+          <Name>productLineCode</Name>
+          <Error>false</Error>
+          <DisplayName>Product Line Code</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4936">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>ProductLineSubCode</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>21</GridColumnLength>
+          <GridColumnName>Product Line Sub Code</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>ProductLineSubCode</UpperName>
+          <Html>false</Html>
+          <Name>productLineSubCode</Name>
+          <Error>false</Error>
+          <DisplayName>Product Line Sub Code</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4937">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Item</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Item</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>60</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Item</UpperName>
+          <Html>false</Html>
+          <Name>item</Name>
+          <Error>false</Error>
+          <DisplayName>Item</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4938">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>EffectiveDate</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>14</GridColumnLength>
+          <GridColumnName>Effective Date</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>EffectiveDate</UpperName>
+          <Html>false</Html>
+          <Name>effectiveDate</Name>
+          <Error>false</Error>
+          <DisplayName>Effective Date</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4939">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>State</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>20</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>State</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>State</UpperName>
+          <Html>false</Html>
+          <Name>state</Name>
+          <Error>false</Error>
+          <DisplayName>State</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4940">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>County</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>35</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>County</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>35</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>County</UpperName>
+          <Html>false</Html>
+          <Name>county</Name>
+          <Error>false</Error>
+          <DisplayName>County</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4941">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Zipcode</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>15</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Zipcode</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>15</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Zipcode</UpperName>
+          <Html>false</Html>
+          <Name>zipcode</Name>
+          <Error>false</Error>
+          <DisplayName>Zipcode</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4942">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>StoreId</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Store Id</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>long</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>StoreId</UpperName>
+          <Html>false</Html>
+          <Name>storeId</Name>
+          <Error>false</Error>
+          <DisplayName>Store Id</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4943">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Restricted</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Restricted</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-14</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Restricted</UpperName>
+          <Html>false</Html>
+          <Name>restricted</Name>
+          <Error>false</Error>
+          <DisplayName>Restricted</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4944">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>FlightRestriction</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>18</GridColumnLength>
+          <GridColumnName>Flight Restriction</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-04-14</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>FlightRestriction</UpperName>
+          <Html>false</Html>
+          <Name>flightRestriction</Name>
+          <Error>false</Error>
+          <DisplayName>Flight Restriction</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4945">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Caustic</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>7</GridColumnLength>
+          <GridColumnName>Caustic</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-03</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Caustic</UpperName>
+          <Html>false</Html>
+          <Name>caustic</Name>
+          <Error>false</Error>
+          <DisplayName>Caustic</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4946">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>HybridElectric</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Hybrid Electric</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-03</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>HybridElectric</UpperName>
+          <Html>false</Html>
+          <Name>hybridElectric</Name>
+          <Error>false</Error>
+          <DisplayName>Hybrid Electric</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4947">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Freon</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>5</GridColumnLength>
+          <GridColumnName>Freon</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-03</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Freon</UpperName>
+          <Html>false</Html>
+          <Name>freon</Name>
+          <Error>false</Error>
+          <DisplayName>Freon</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4948">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>ProcessDate</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>12</GridColumnLength>
+          <GridColumnName>Process Date</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-05-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>ProcessDate</UpperName>
+          <Html>false</Html>
+          <Name>processDate</Name>
+          <Error>false</Error>
+          <DisplayName>Process Date</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4949">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>DeleteDate</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>11</GridColumnLength>
+          <GridColumnName>Delete Date</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-05-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>DeleteDate</UpperName>
+          <Html>false</Html>
+          <Name>deleteDate</Name>
+          <Error>false</Error>
+          <DisplayName>Delete Date</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+        <Property id="g4950">
+          <AutoAssign>false</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>true</Index>
+          <DataSourceName>SearchValue</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>true</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>75</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Search Value</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>75</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Code><![CDATA[public String getSearchValue() {
+    if (searchValue == null) {
+        String s = ItemRestrictionDelegate.getEncodedSearchValue(this);
+        setSearchValue(s);
+    }
+    return searchValue;
+}
+public void setSearchValue(String newValue) {
+    String old = searchValue;
+    fireBeforePropertyChange(P_SearchValue, old, newValue);
+    this.searchValue = newValue;
+    firePropertyChange(P_SearchValue, old, this.searchValue);
+}]]></Code>
+          <Hide>false</Hide>
+          <Created>2020-04-29</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <TableCode><![CDATA[public void customizeRenderer(JLabel lbl, ItemRestriction itemRestriction, boolean isSelected, boolean hasFocus, int row, boolean wasChanged, boolean wasMouseOver) {
+    if (itemRestriction == null) return;
+    String searchValue = itemRestriction.getSearchValue();
+    // use OAJfcUtil static methods ...  ex: useColorBorder, useDitto, alignLeft, useColorIcon, etc
+    if (OAString.isEmpty(searchValue)) OAJfcUtil.useRedBorder(lbl);
+}
+public String getToolTipText(ItemRestriction itemRestriction, int row, String defaultValue) {
+    if (itemRestriction == null) return defaultValue;
+    String searchValue = itemRestriction.getSearchValue();
+    return "<html>"+OAString.notNull(itemRestriction.getSearchValueDescription());
+}]]></TableCode>
+          <Flag>false</Flag>
+          <UpperName>SearchValue</UpperName>
+          <Html>false</Html>
+          <Name>searchValue</Name>
+          <Error>false</Error>
+          <DisplayName>Search Value</DisplayName>
+          <objectDef idref="g4924"/>
+        </Property>
+      </properties>
+      <methods total="1">
+        <Method id="g4951">
+          <CompletedMessage>Reassign search values completed</CompletedMessage>
+          <ConfirmationMessage></ConfirmationMessage>
+          <IsCommand>true</IsCommand>
+          <IsRemote>true</IsRemote>
+          <ShowProcessing>true</ShowProcessing>
+          <SupportsMultipleAtOnce>true</SupportsMultipleAtOnce>
+          <Signature>void reassignSearchValue</Signature>
+          <Code><![CDATA[public void reassignSearchValue() {
+    // use this to run on server (remote)
+    if (isRemoteAvailable()) {
+        remote();
+        return;
+    }
+    // setting searchValue to null will cause it to recreate on next get.
+    searchValue = null;
+    getSearchValue();
+}
+public static void reassignSearchValue(Hub<ItemRestriction> hub) {
+    if (isRemoteAvailable(hub)) {
+        callRemote(hub);
+        return;
+    }
+    for (ItemRestriction itemRestriction : hub) {
+        itemRestriction.reassignSearchValue();
+    }
+}]]></Code>
+          <Hide>false</Hide>
+          <Created>2020-04-30</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>ReassignSearchValue</UpperName>
+          <ToolTip>reassign search values</ToolTip>
+          <Html>false</Html>
+          <Name>reassignSearchValue</Name>
+          <Error>false</Error>
+          <DisplayName>Reassign</DisplayName>
+          <objectDef idref="g4924"/>
+        </Method>
+      </methods>
+      <CalcProperties total="2">
+        <CalcProperty id="g4952">
+          <IsForHub>false</IsForHub>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>21</GridColumnLength>
+          <GridColumnName>Verified Search Value</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <File>false</File>
+          <Code><![CDATA[public boolean getVerifiedSearchValue() {
+    boolean b = OAString.isEqual(getSearchValue(), ItemRestrictionDelegate.getEncodedSearchValue(this));
+    return b;
+}]]></Code>
+          <Hide>false</Hide>
+          <Created>2020-04-30</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>VerifiedSearchValue</UpperName>
+          <Html>false</Html>
+          <Name>verifiedSearchValue</Name>
+          <Error>false</Error>
+          <DisplayName>Verified Search Value</DisplayName>
+          <DependentPropertyPaths total="10">
+            <PropertyPath id="g4953">
+              <PropertyPath>levelType</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4927"/>
+              <Property idref="g4927"/>
+            </PropertyPath>
+            <PropertyPath id="g4954">
+              <PropertyPath>line</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4934"/>
+              <Property idref="g4934"/>
+            </PropertyPath>
+            <PropertyPath id="g4955">
+              <PropertyPath>productLineCode</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4935"/>
+              <Property idref="g4935"/>
+            </PropertyPath>
+            <PropertyPath id="g4956">
+              <PropertyPath>productLineSubCode</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4936"/>
+              <Property idref="g4936"/>
+            </PropertyPath>
+            <PropertyPath id="g4957">
+              <PropertyPath>item</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4937"/>
+              <Property idref="g4937"/>
+            </PropertyPath>
+            <PropertyPath id="g4958">
+              <PropertyPath>state</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4939"/>
+              <Property idref="g4939"/>
+            </PropertyPath>
+            <PropertyPath id="g4959">
+              <PropertyPath>county</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4940"/>
+              <Property idref="g4940"/>
+            </PropertyPath>
+            <PropertyPath id="g4960">
+              <PropertyPath>zipcode</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4941"/>
+              <Property idref="g4941"/>
+            </PropertyPath>
+            <PropertyPath id="g4961">
+              <PropertyPath>storeId</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4942"/>
+              <Property idref="g4942"/>
+            </PropertyPath>
+            <PropertyPath id="g4962">
+              <PropertyPath>searchValue</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4950"/>
+              <Property idref="g4950"/>
+            </PropertyPath>
+          </DependentPropertyPaths>
+          <objectDef idref="g4924"/>
+        </CalcProperty>
+        <CalcProperty id="g4963">
+          <IsForHub>false</IsForHub>
+          <MaxDisplayLength>40</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Search Value Description</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <File>false</File>
+          <Code><![CDATA[public String getSearchValueDescription() {
+    String s = ItemRestrictionDelegate.getEncodedDescription(this.getSearchValue());
+    return s;
+}]]></Code>
+          <Hide>false</Hide>
+          <Created>2020-04-30</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>SearchValueDescription</UpperName>
+          <Html>false</Html>
+          <Name>searchValueDescription</Name>
+          <Error>false</Error>
+          <DisplayName>Search Value Description</DisplayName>
+          <DependentPropertyPaths total="1">
+            <PropertyPath id="g4964">
+              <PropertyPath>searchValue</PropertyPath>
+              <Lookup>false</Lookup>
+              <FromObjectDef idref="g4924"/>
+              <EndProperty idref="g4950"/>
+              <Property idref="g4950"/>
+            </PropertyPath>
+          </DependentPropertyPaths>
+          <objectDef idref="g4924"/>
+        </CalcProperty>
+      </CalcProperties>
+      <DisplayPropertyPath id="g5067">
+        <PropertyPath>searchValue</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g4924"/>
+        <EndProperty idref="g4950"/>
+        <Property idref="g4950"/>
+      </DisplayPropertyPath>
+      <Indexes total="1">
+        <Index id="g4965">
+          <DataSourceName>ItemRestrictionSearchValue</DataSourceName>
+          <ObjectDef idref="g4924"/>
+          <IndexProperties total="1">
+            <IndexProperty id="g4966">
+              <Seq>0</Seq>
+              <Desc>false</Desc>
+              <Index idref="g4965"/>
+              <Property idref="g4950"/>
+            </IndexProperty>
+          </IndexProperties>
+        </Index>
+      </Indexes>
+      <UIProperties total="22">
+        <UIProperty id="g4967">
+          <Seq>0</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4968">
+            <PropertyPath>id</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4925"/>
+            <Property idref="g4925"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4969">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4970">
+            <PropertyPath>created</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4926"/>
+            <Property idref="g4926"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4971">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4972">
+            <PropertyPath>line</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4934"/>
+            <Property idref="g4934"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4973">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4974">
+            <PropertyPath>productLineCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4935"/>
+            <Property idref="g4935"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4975">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4976">
+            <PropertyPath>productLineSubCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4936"/>
+            <Property idref="g4936"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4977">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4978">
+            <PropertyPath>item</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4937"/>
+            <Property idref="g4937"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4979">
+          <Seq>6</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4980">
+            <PropertyPath>levelType</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4927"/>
+            <Property idref="g4927"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4981">
+          <Seq>7</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4982">
+            <PropertyPath>effectiveDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4938"/>
+            <Property idref="g4938"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4983">
+          <Seq>8</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4984">
+            <PropertyPath>deleteDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4949"/>
+            <Property idref="g4949"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4985">
+          <Seq>9</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4986">
+            <PropertyPath>processDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4948"/>
+            <Property idref="g4948"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4987">
+          <Seq>10</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4988">
+            <PropertyPath>storeId</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4942"/>
+            <Property idref="g4942"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4989">
+          <Seq>11</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4990">
+            <PropertyPath>state</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4939"/>
+            <Property idref="g4939"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4991">
+          <Seq>12</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4992">
+            <PropertyPath>county</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4940"/>
+            <Property idref="g4940"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4993">
+          <Seq>13</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4994">
+            <PropertyPath>zipcode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4941"/>
+            <Property idref="g4941"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4995">
+          <Seq>14</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4996">
+            <PropertyPath>restricted</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4943"/>
+            <Property idref="g4943"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4997">
+          <Seq>15</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g4998">
+            <PropertyPath>flightRestriction</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4944"/>
+            <Property idref="g4944"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4999">
+          <Seq>16</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5000">
+            <PropertyPath>searchValue</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4950"/>
+            <Property idref="g4950"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g5001">
+          <Seq>17</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5002">
+            <PropertyPath>searchValueDescription</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4963"/>
+            <Property idref="g4963"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g5003">
+          <Seq>18</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5004">
+            <PropertyPath>verifiedSearchValue</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4952"/>
+            <Property idref="g4952"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g5005">
+          <Seq>19</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5006">
+            <PropertyPath>caustic</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4945"/>
+            <Property idref="g4945"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g5007">
+          <Seq>20</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5008">
+            <PropertyPath>hybridElectric</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4946"/>
+            <Property idref="g4946"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g5009">
+          <Seq>21</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5010">
+            <PropertyPath>freon</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4947"/>
+            <Property idref="g4947"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+      <SearchInputProperties total="12">
+        <InputProperty id="g5011">
+          <Seq>0</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Line</UpperName>
+          <Name>line</Name>
+          <DisplayName>Line</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5012">
+            <PropertyPath>line</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4934"/>
+            <Property idref="g4934"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5013">
+          <Seq>1</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Item</UpperName>
+          <Name>item</Name>
+          <DisplayName>Item</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5014">
+            <PropertyPath>item</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4937"/>
+            <Property idref="g4937"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5015">
+          <Seq>2</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>ProductLine</UpperName>
+          <Name>productLine</Name>
+          <DisplayName>Product Line</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5016">
+            <PropertyPath>productLineCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4935"/>
+            <Property idref="g4935"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5017">
+          <Seq>3</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>SubProductLine</UpperName>
+          <Name>subProductLine</Name>
+          <DisplayName>Sub Product Line</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5018">
+            <PropertyPath>productLineSubCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4936"/>
+            <Property idref="g4936"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5019">
+          <Seq>4</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>State</UpperName>
+          <Name>state</Name>
+          <DisplayName>State</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5020">
+            <PropertyPath>state</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4939"/>
+            <Property idref="g4939"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5021">
+          <Seq>5</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>County</UpperName>
+          <Name>county</Name>
+          <DisplayName>County</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5022">
+            <PropertyPath>county</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4940"/>
+            <Property idref="g4940"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5023">
+          <Seq>6</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Zipcode</UpperName>
+          <Name>zipcode</Name>
+          <DisplayName>Zipcode</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5024">
+            <PropertyPath>zipcode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4941"/>
+            <Property idref="g4941"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5025">
+          <Seq>7</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Store</UpperName>
+          <Name>store</Name>
+          <DisplayName>Store</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5026">
+            <PropertyPath>storeId</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4942"/>
+            <Property idref="g4942"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5027">
+          <Seq>8</Seq>
+          <InputType>1</InputType>
+          <NullOption>true</NullOption>
+          <NotNullOption>true</NotNullOption>
+          <UpperName>FlightRestriction</UpperName>
+          <Name>flightRestriction</Name>
+          <DisplayName>Flight Restriction</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5028">
+            <PropertyPath>flightRestriction</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4944"/>
+            <Property idref="g4944"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5029">
+          <Seq>9</Seq>
+          <InputType>2</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5030">
+            <PropertyPath>created</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4926"/>
+            <Property idref="g4926"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5031">
+          <Seq>10</Seq>
+          <InputType>2</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5032">
+            <PropertyPath>id</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4925"/>
+            <Property idref="g4925"/>
+          </PropertyPath>
+        </InputProperty>
+        <InputProperty id="g5033">
+          <Seq>11</Seq>
+          <InputType>1</InputType>
+          <NullOption>false</NullOption>
+          <NotNullOption>false</NotNullOption>
+          <UpperName>SearchValue</UpperName>
+          <Name>searchValue</Name>
+          <DisplayName>Search Value</DisplayName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5034">
+            <PropertyPath>searchValue</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4950"/>
+            <Property idref="g4950"/>
+          </PropertyPath>
+        </InputProperty>
+      </SearchInputProperties>
+      <EditTableProperties total="16">
+        <EditTableProperty id="g5035">
+          <Seq>0</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5036">
+            <PropertyPath>line</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4934"/>
+            <Property idref="g4934"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5037">
+          <Seq>1</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5038">
+            <PropertyPath>item</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4937"/>
+            <Property idref="g4937"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5039">
+          <Seq>2</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ColumnName>Prod Code</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5040">
+            <PropertyPath>productLineCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4935"/>
+            <Property idref="g4935"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5041">
+          <Seq>3</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ColumnName>Sub Code</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5042">
+            <PropertyPath>productLineSubCode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4936"/>
+            <Property idref="g4936"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5043">
+          <Seq>4</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>8</Columns>
+          <ColumnName>Level</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5044">
+            <PropertyPath>levelType</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4927"/>
+            <Property idref="g4927"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5045">
+          <Seq>5</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ColumnName>Effective</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5046">
+            <PropertyPath>effectiveDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4938"/>
+            <Property idref="g4938"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5047">
+          <Seq>6</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ColumnName>Processed</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5048">
+            <PropertyPath>processDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4948"/>
+            <Property idref="g4948"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5049">
+          <Seq>7</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>10</Columns>
+          <ColumnName>Deleted</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5050">
+            <PropertyPath>deleteDate</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4949"/>
+            <Property idref="g4949"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5051">
+          <Seq>8</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>5</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5052">
+            <PropertyPath>state</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4939"/>
+            <Property idref="g4939"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5053">
+          <Seq>9</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>12</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5054">
+            <PropertyPath>county</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4940"/>
+            <Property idref="g4940"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5055">
+          <Seq>10</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>6</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5056">
+            <PropertyPath>zipcode</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4941"/>
+            <Property idref="g4941"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5057">
+          <Seq>11</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>0</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5058">
+            <PropertyPath>storeId</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4942"/>
+            <Property idref="g4942"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5059">
+          <Seq>12</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>8</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5060">
+            <PropertyPath>restricted</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4943"/>
+            <Property idref="g4943"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5061">
+          <Seq>13</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>8</Columns>
+          <ColumnName>Flight Restricted</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5062">
+            <PropertyPath>flightRestriction</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4944"/>
+            <Property idref="g4944"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5063">
+          <Seq>14</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>6</Columns>
+          <ColumnName>Verified</ColumnName>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5064">
+            <PropertyPath>verifiedSearchValue</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4952"/>
+            <Property idref="g4952"/>
+          </PropertyPath>
+        </EditTableProperty>
+        <EditTableProperty id="g5065">
+          <Seq>15</Seq>
+          <ViewOnly>false</ViewOnly>
+          <ShowSum>false</ShowSum>
+          <Freeze>false</Freeze>
+          <Columns>22</Columns>
+          <ObjectDef idref="g4924"/>
+          <PropertyPath id="g5066">
+            <PropertyPath>searchValue</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g4924"/>
+            <EndProperty idref="g4950"/>
+            <Property idref="g4950"/>
+          </PropertyPath>
+        </EditTableProperty>
+      </EditTableProperties>
+    </ObjectDef>
+  </objectDefs>
+  <Changes total="1">
+    <Change id="g5068">
+      <UpdateCode><![CDATA[-- OBJECT ItemRestriction Added
+-- Table ItemRestriction For ItemRestriction
+CREATE TABLE ItemRestriction(
+    Id int NOT NULL,
+    Created DATETIME,
+    LevelType int,
+    Line VARCHAR(3),
+    ProductLineCode int,
+    ProductLineSubCode int,
+    Item VARCHAR(60),
+    EffectiveDate datetime,
+    State VARCHAR(20),
+    County VARCHAR(35),
+    Zipcode VARCHAR(15),
+    StoreId long,
+    Restricted bit,
+    FlightRestriction bit,
+    Caustic bit,
+    HybridElectric bit,
+    Freon bit,
+    ProcessDate datetime,
+    DeleteDate datetime,
+    SearchValue VARCHAR(75)
+);
+ALTER TABLE ItemRestriction Add Constraint PkItemRestriction PRIMARY KEY (Id);
+CREATE INDEX ItemRestrictionSearchValue ON ItemRestriction (SearchValue);
+ ]]></UpdateCode>
+      <Object idref="g4924"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT ItemRestriction Added</DisplayName>
+      <model idref="g4921"/>
+    </Change>
+  </Changes>
+  <DBMetaData id="g4923">
+    <LeftBracket></LeftBracket>
+    <RightBracket></RightBracket>
+    <DistinctKeyword>DISTINCT</DistinctKeyword>
+    <OuterjoinStart></OuterjoinStart>
+    <OuterjoinEnd></OuterjoinEnd>
+    <LikeKeyword>LIKE</LikeKeyword>
+  </DBMetaData>
+</Model>
+</OAXML>

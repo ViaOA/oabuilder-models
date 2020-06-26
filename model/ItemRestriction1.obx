@@ -1,0 +1,2592 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='06/04/20 08:19 AM'>
+<Model id="g12" class="com.viaoa.builder.model.Model">
+  <SizeType>1</SizeType>
+  <LowerName>itemRestriction1</LowerName>
+  <IdCounter>0</IdCounter>
+  <ShowLookups>true</ShowLookups>
+  <MinimizeLookups>false</MinimizeLookups>
+  <ShowHiddenObjects>true</ShowHiddenObjects>
+  <ShowAllLinks>true</ShowAllLinks>
+  <ShowHiddenLinks>false</ShowHiddenLinks>
+  <Hilite>true</Hilite>
+  <LinkMode>false</LinkMode>
+  <MoveMode>false</MoveMode>
+  <UseIdentifyPkey>false</UseIdentifyPkey>
+  <DataSourceUseSplitName>false</DataSourceUseSplitName>
+  <DataSourceExpandPkeyName>false</DataSourceExpandPkeyName>
+  <DataSourceUpperName>false</DataSourceUpperName>
+  <LockDataSourceAutoUpdate>false</LockDataSourceAutoUpdate>
+  <OABuilderVersion>202003080</OABuilderVersion>
+  <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+  <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+  <AdminCompareValue>false</AdminCompareValue>
+  <RootDirectory>\home\vvia\git\oabuilder-models\model</RootDirectory>
+  <SourceDirectory>src\main\java</SourceDirectory>
+  <Scale>1.0</Scale>
+  <Name>ItemRestriction1</Name>
+  <FileName>/home/vvia/git/oabuilder-models/model/ItemRestriction1.obx</FileName>
+  <DisplayName>Item Restriction1</DisplayName>
+  <objectDefs total="6">
+    <ObjectDef id="g3410">
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrschgses</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>JRSCHGSES</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>jrschgs</LowerName>
+      <PkeyDataSourceName>PkJrshdr</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#80FFFF</Color>
+      <Bounds>139,177,121,264</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrshdr</DataSourceName>
+      <PluralName>JRSCHGSES</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSCHGS</Name>
+      <DisplayName>JRSCHGS</DisplayName>
+      <model idref="g12"/>
+      <properties total="14">
+        <Property id="g3411">
+          <AutoAssign>true</AutoAssign>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Itemmanuid</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Itemmanuid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>true</Flag>
+          <UpperName>Itemmanuid</UpperName>
+          <Html>false</Html>
+          <Name>itemmanuid</Name>
+          <Error>false</Error>
+          <DisplayName>Itemmanuid</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3413">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Line</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>3</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Line</GridColumnName>
+          <MaxLength>3</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Line</UpperName>
+          <Name>line</Name>
+          <DisplayName>Line</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3416">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Plcd</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Plcd</GridColumnName>
+          <MaxLength>2</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Plcd</UpperName>
+          <Name>plcd</Name>
+          <DisplayName>Plcd</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3417">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Subc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Subc</GridColumnName>
+          <MaxLength>2</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Subc</UpperName>
+          <Name>subc</Name>
+          <DisplayName>Subc</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3418">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Level</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>1</MaxDisplayLength>
+          <GridColumnLength>5</GridColumnLength>
+          <GridColumnName>Level</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>char</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Level</UpperName>
+          <Name>level</Name>
+          <DisplayName>Level</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3414">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Vendor</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Vendor</GridColumnName>
+          <MaxLength>60</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Vendor</UpperName>
+          <Name>vendor</Name>
+          <DisplayName>Vendor</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3419">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Itemdesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>25</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Itemdesc</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Itemdesc</UpperName>
+          <Name>itemdesc</Name>
+          <DisplayName>Itemdesc</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3415">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Item</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Item</GridColumnName>
+          <MaxLength>60</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Item</UpperName>
+          <Name>item</Name>
+          <DisplayName>Item</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3446">
+          <DataSourceName>Resstate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Resstate</GridColumnName>
+          <MaxLength>2</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Resstate</UpperName>
+          <Name>resstate</Name>
+          <DisplayName>Resstate</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3449">
+          <DataSourceName>Effdate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Effdate</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Effdate</UpperName>
+          <Name>effdate</Name>
+          <DisplayName>Effdate</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3452">
+          <DataSourceName>Rescounty</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>10</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Rescounty</GridColumnName>
+          <MaxLength>10</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Rescounty</UpperName>
+          <Name>rescounty</Name>
+          <DisplayName>Rescounty</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3455">
+          <DataSourceName>Reszip</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Reszip</GridColumnName>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Reszip</UpperName>
+          <Name>reszip</Name>
+          <DisplayName>Reszip</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3464">
+          <DataSourceName>Resstore</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Resstore</GridColumnName>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Resstore</UpperName>
+          <Name>resstore</Name>
+          <DisplayName>Resstore</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+        <Property id="g3467">
+          <DataSourceName>Origin</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>1</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Origin</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>char</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Origin</UpperName>
+          <Name>origin</Name>
+          <DisplayName>Origin</DisplayName>
+          <objectDef idref="g3410"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g3444">
+        <LookupProperty>false</LookupProperty>
+        <PropertyPath>itemmanuid</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g3410"/>
+        <EndProperty idref="g3411"/>
+        <Property idref="g3411"/>
+      </DisplayPropertyPath>
+      <UIProperties total="14">
+        <UIProperty id="g3422">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3423">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>itemmanuid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3411"/>
+            <Property idref="g3411"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3426">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3427">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>line</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3413"/>
+            <Property idref="g3413"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3428">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3429">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>vendor</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3414"/>
+            <Property idref="g3414"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3430">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3431">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>item</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3415"/>
+            <Property idref="g3415"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3432">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3433">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>plcd</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3416"/>
+            <Property idref="g3416"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3434">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3435">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>subc</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3417"/>
+            <Property idref="g3417"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3436">
+          <Seq>6</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3437">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>level</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3418"/>
+            <Property idref="g3418"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3438">
+          <Seq>7</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3439">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>itemdesc</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3419"/>
+            <Property idref="g3419"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3447">
+          <Seq>8</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3448">
+            <PropertyPath>resstate</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3446"/>
+            <Property idref="g3446"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3450">
+          <Seq>9</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3451">
+            <PropertyPath>effdate</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3449"/>
+            <Property idref="g3449"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3453">
+          <Seq>10</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3454">
+            <PropertyPath>rescounty</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3452"/>
+            <Property idref="g3452"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3456">
+          <Seq>11</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3457">
+            <PropertyPath>reszip</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3455"/>
+            <Property idref="g3455"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3465">
+          <Seq>12</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3466">
+            <PropertyPath>resstore</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3464"/>
+            <Property idref="g3464"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3468">
+          <Seq>13</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3410"/>
+          <PropertyPath id="g3469">
+            <PropertyPath>origin</PropertyPath>
+            <FromObjectDef idref="g3410"/>
+            <EndProperty idref="g3467"/>
+            <Property idref="g3467"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g45">
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrscnties</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>JRSCNTIES</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>jrscnty</LowerName>
+      <PkeyDataSourceName>PkJrscnty</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#DCFFDC</Color>
+      <Bounds>783,344,112,94</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrscnty</DataSourceName>
+      <PluralName>JRSCNTIES</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSCNTY</Name>
+      <DisplayName>JRSCNTY</DisplayName>
+      <model idref="g12"/>
+      <properties total="4">
+        <Property id="g46">
+          <AutoAssign>true</AutoAssign>
+          <Key>true</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Cntyid</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Cntyid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Cntyid</UpperName>
+          <Html>false</Html>
+          <Name>cntyid</Name>
+          <Error>false</Error>
+          <DisplayName>Cntyid</DisplayName>
+          <objectDef idref="g45"/>
+        </Property>
+        <Property id="g47">
+          <AutoAssign>false</AutoAssign>
+          <Key>false</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Stateid</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>7</GridColumnLength>
+          <GridColumnName>Stateid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>true</Flag>
+          <UpperName>Stateid</UpperName>
+          <Html>false</Html>
+          <Name>stateid</Name>
+          <Error>false</Error>
+          <DisplayName>Stateid</DisplayName>
+          <objectDef idref="g45"/>
+        </Property>
+        <Property id="g3470">
+          <DataSourceName>Countydesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>10</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Countydesc</GridColumnName>
+          <MaxLength>10</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Countydesc</UpperName>
+          <Name>countydesc</Name>
+          <DisplayName>Countydesc</DisplayName>
+          <objectDef idref="g45"/>
+        </Property>
+        <Property id="g3473">
+          <DataSourceName>Effdate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Effdate</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Effdate</UpperName>
+          <Name>effdate</Name>
+          <DisplayName>Effdate</DisplayName>
+          <objectDef idref="g45"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g3601"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g52">
+        <LookupProperty>false</LookupProperty>
+        <PropertyPath>cntyid</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g45"/>
+        <EndProperty idref="g46"/>
+        <Property idref="g46"/>
+      </DisplayPropertyPath>
+      <UIProperties total="5">
+        <UIProperty id="g48">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g45"/>
+          <PropertyPath id="g49">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>cntyid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g45"/>
+            <EndProperty idref="g46"/>
+            <Property idref="g46"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g50">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g45"/>
+          <PropertyPath id="g51">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>stateid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g45"/>
+            <EndProperty idref="g47"/>
+            <Property idref="g47"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3471">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g45"/>
+          <PropertyPath id="g3472">
+            <PropertyPath>countydesc</PropertyPath>
+            <FromObjectDef idref="g45"/>
+            <EndProperty idref="g3470"/>
+            <Property idref="g3470"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3474">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g45"/>
+          <PropertyPath id="g3475">
+            <PropertyPath>effdate</PropertyPath>
+            <FromObjectDef idref="g45"/>
+            <EndProperty idref="g3473"/>
+            <Property idref="g3473"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3604">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g45"/>
+          <PropertyPath id="g3605">
+            <PropertyPath>jrsstate</PropertyPath>
+            <FromObjectDef idref="g45"/>
+            <EndProperty idref="g3601"/>
+            <Property idref="g3601"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g29">
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrshdrs</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>JRSHDRS</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>jrshdr</LowerName>
+      <PkeyDataSourceName>PkJrshdr</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#00FF00</Color>
+      <Bounds>367,39,121,213</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrshdr</DataSourceName>
+      <PluralName>JRSHDRS</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSHDR</Name>
+      <DisplayName>JRSHDR</DisplayName>
+      <model idref="g12"/>
+      <properties total="11">
+        <Property id="g30">
+          <AutoAssign>true</AutoAssign>
+          <Key>true</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Itemmanuid</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Itemmanuid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>true</Flag>
+          <UpperName>Itemmanuid</UpperName>
+          <Html>false</Html>
+          <Name>itemmanuid</Name>
+          <Error>false</Error>
+          <DisplayName>Itemmanuid</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g31">
+          <AutoAssign>false</AutoAssign>
+          <Key>false</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Typeid</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Typeid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Typeid</UpperName>
+          <Html>false</Html>
+          <Name>typeid</Name>
+          <Error>false</Error>
+          <DisplayName>Typeid</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3368">
+          <DataSourceName>Line</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>3</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Line</GridColumnName>
+          <MaxLength>3</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Line</UpperName>
+          <Name>line</Name>
+          <DisplayName>Line</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3371">
+          <DataSourceName>Vendor</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Vendor</GridColumnName>
+          <MaxLength>60</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Vendor</UpperName>
+          <Name>vendor</Name>
+          <DisplayName>Vendor</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3374">
+          <DataSourceName>Item</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Item</GridColumnName>
+          <MaxLength>60</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Item</UpperName>
+          <Name>item</Name>
+          <DisplayName>Item</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3377">
+          <DataSourceName>Plcd</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Plcd</GridColumnName>
+          <MaxLength>2</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Plcd</UpperName>
+          <Name>plcd</Name>
+          <DisplayName>Plcd</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3380">
+          <DataSourceName>Subc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>2</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Subc</GridColumnName>
+          <MaxLength>2</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Subc</UpperName>
+          <Name>subc</Name>
+          <DisplayName>Subc</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3383">
+          <DataSourceName>Level</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>1</MaxDisplayLength>
+          <GridColumnLength>5</GridColumnLength>
+          <GridColumnName>Level</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>char</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Level</UpperName>
+          <Name>level</Name>
+          <DisplayName>Level</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3386">
+          <DataSourceName>Itemdesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>25</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Itemdesc</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Itemdesc</UpperName>
+          <Name>itemdesc</Name>
+          <DisplayName>Itemdesc</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3389">
+          <DataSourceName>Rstritem</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Rstritem</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Rstritem</UpperName>
+          <Name>rstritem</Name>
+          <DisplayName>Rstritem</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+        <Property id="g3392">
+          <DataSourceName>Flightitem</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Flightitem</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Flightitem</UpperName>
+          <Name>flightitem</Name>
+          <DisplayName>Flightitem</DisplayName>
+          <objectDef idref="g29"/>
+        </Property>
+      </properties>
+      <LinkProperties total="3">
+        <LinkProperty idref="g3582"/>
+        <LinkProperty idref="g3573"/>
+        <LinkProperty idref="g3591"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g36">
+        <LookupProperty>false</LookupProperty>
+        <PropertyPath>itemmanuid</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g29"/>
+        <EndProperty idref="g30"/>
+        <Property idref="g30"/>
+      </DisplayPropertyPath>
+      <UIProperties total="14">
+        <UIProperty id="g32">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g33">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>itemmanuid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g30"/>
+            <Property idref="g30"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g34">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g35">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>typeid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g31"/>
+            <Property idref="g31"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3369">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3370">
+            <PropertyPath>line</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3368"/>
+            <Property idref="g3368"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3372">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3373">
+            <PropertyPath>vendor</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3371"/>
+            <Property idref="g3371"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3375">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3376">
+            <PropertyPath>item</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3374"/>
+            <Property idref="g3374"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3378">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3379">
+            <PropertyPath>plcd</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3377"/>
+            <Property idref="g3377"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3381">
+          <Seq>6</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3382">
+            <PropertyPath>subc</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3380"/>
+            <Property idref="g3380"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3384">
+          <Seq>7</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3385">
+            <PropertyPath>level</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3383"/>
+            <Property idref="g3383"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3387">
+          <Seq>8</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3388">
+            <PropertyPath>itemdesc</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3386"/>
+            <Property idref="g3386"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3390">
+          <Seq>9</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3391">
+            <PropertyPath>rstritem</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3389"/>
+            <Property idref="g3389"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3393">
+          <Seq>10</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3394">
+            <PropertyPath>flightitem</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3392"/>
+            <Property idref="g3392"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3575">
+          <Seq>11</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3576">
+            <PropertyPath>jrsstore</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3573"/>
+            <Property idref="g3573"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3584">
+          <Seq>12</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3585">
+            <PropertyPath>jrsstate</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3582"/>
+            <Property idref="g3582"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3593">
+          <Seq>13</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g29"/>
+          <PropertyPath id="g3594">
+            <PropertyPath>jrszip</PropertyPath>
+            <FromObjectDef idref="g29"/>
+            <EndProperty idref="g3591"/>
+            <Property idref="g3591"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g13">
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrsstates</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>JRSSTATES</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>jrsstate</LowerName>
+      <PkeyDataSourceName>PkJrsstate</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#DCFFDC</Color>
+      <Bounds>568,287,106,111</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrsstate</DataSourceName>
+      <PluralName>JRSSTATES</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSSTATE</Name>
+      <DisplayName>JRSSTATE</DisplayName>
+      <model idref="g12"/>
+      <properties total="5">
+        <Property id="g14">
+          <AutoAssign>true</AutoAssign>
+          <Key>true</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Stateid</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>7</GridColumnLength>
+          <GridColumnName>Stateid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Stateid</UpperName>
+          <Html>false</Html>
+          <Name>stateid</Name>
+          <Error>false</Error>
+          <DisplayName>Stateid</DisplayName>
+          <objectDef idref="g13"/>
+        </Property>
+        <Property id="g15">
+          <AutoAssign>false</AutoAssign>
+          <Key>false</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Itemmanuid</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Itemmanuid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>true</Flag>
+          <UpperName>Itemmanuid</UpperName>
+          <Html>false</Html>
+          <Name>itemmanuid</Name>
+          <Error>false</Error>
+          <DisplayName>Itemmanuid</DisplayName>
+          <objectDef idref="g13"/>
+        </Property>
+        <Property id="g3476">
+          <DataSourceName>Statedesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>10</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Statedesc</GridColumnName>
+          <MaxLength>10</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Statedesc</UpperName>
+          <Name>statedesc</Name>
+          <DisplayName>Statedesc</DisplayName>
+          <objectDef idref="g13"/>
+        </Property>
+        <Property id="g3479">
+          <DataSourceName>Allcnty</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <GridColumnLength>7</GridColumnLength>
+          <GridColumnName>Allcnty</GridColumnName>
+          <MaxLength>1</MaxLength>
+          <DisplayLength>5</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>boolean</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Allcnty</UpperName>
+          <Name>allcnty</Name>
+          <DisplayName>Allcnty</DisplayName>
+          <objectDef idref="g13"/>
+        </Property>
+        <Property id="g3482">
+          <DataSourceName>Effdate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Effdate</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Effdate</UpperName>
+          <Name>effdate</Name>
+          <DisplayName>Effdate</DisplayName>
+          <objectDef idref="g13"/>
+        </Property>
+      </properties>
+      <LinkProperties total="2">
+        <LinkProperty idref="g3600"/>
+        <LinkProperty idref="g3583"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g20">
+        <LookupProperty>false</LookupProperty>
+        <PropertyPath>stateid</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g13"/>
+        <EndProperty idref="g14"/>
+        <Property idref="g14"/>
+      </DisplayPropertyPath>
+      <UIProperties total="7">
+        <UIProperty id="g16">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g17">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>stateid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g14"/>
+            <Property idref="g14"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g18">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g19">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>itemmanuid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g15"/>
+            <Property idref="g15"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3477">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g3478">
+            <PropertyPath>statedesc</PropertyPath>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g3476"/>
+            <Property idref="g3476"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3480">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g3481">
+            <PropertyPath>allcnty</PropertyPath>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g3479"/>
+            <Property idref="g3479"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3483">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g3484">
+            <PropertyPath>effdate</PropertyPath>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g3482"/>
+            <Property idref="g3482"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3586">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g3587">
+            <PropertyPath>jrshdr</PropertyPath>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g3583"/>
+            <Property idref="g3583"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3602">
+          <Seq>6</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g13"/>
+          <PropertyPath id="g3603">
+            <PropertyPath>jrscnties</PropertyPath>
+            <FromObjectDef idref="g13"/>
+            <EndProperty idref="g3600"/>
+            <Property idref="g3600"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g37">
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrsstores</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PluralDisplayName>JRSSTORES</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <LowerName>jrsstore</LowerName>
+      <PkeyDataSourceName>PkJrsstore</PkeyDataSourceName>
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <Total>0</Total>
+      <Color>#DCFFDC</Color>
+      <Bounds>667,164,106,94</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrsstore</DataSourceName>
+      <PluralName>JRSSTORES</PluralName>
+      <Processed>false</Processed>
+      <Lookup>false</Lookup>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSSTORE</Name>
+      <DisplayName>JRSSTORE</DisplayName>
+      <model idref="g12"/>
+      <properties total="4">
+        <Property id="g38">
+          <AutoAssign>true</AutoAssign>
+          <Key>true</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Storeid</DataSourceName>
+          <Processed>false</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>true</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>7</GridColumnLength>
+          <GridColumnName>Storeid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>false</Flag>
+          <UpperName>Storeid</UpperName>
+          <Html>false</Html>
+          <Name>storeid</Name>
+          <Error>false</Error>
+          <DisplayName>Storeid</DisplayName>
+          <objectDef idref="g37"/>
+        </Property>
+        <Property id="g39">
+          <AutoAssign>false</AutoAssign>
+          <Key>false</Key>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <CounterId>false</CounterId>
+          <NoLineWrap>false</NoLineWrap>
+          <Console>false</Console>
+          <FullTextIndex>false</FullTextIndex>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <Index>false</Index>
+          <DataSourceName>Itemmanuid</DataSourceName>
+          <Processed>true</Processed>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <Unique>false</Unique>
+          <Required>false</Required>
+          <Unicode>false</Unicode>
+          <ImportMatch>false</ImportMatch>
+          <Encrypted>false</Encrypted>
+          <SHAHash>false</SHAHash>
+          <Submit>false</Submit>
+          <ReadOnly>false</ReadOnly>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Itemmanuid</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Pdf>false</Pdf>
+          <Directory>false</Directory>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <File>false</File>
+          <Hide>false</Hide>
+          <Created>2020-06-04</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Flag>true</Flag>
+          <UpperName>Itemmanuid</UpperName>
+          <Html>false</Html>
+          <Name>itemmanuid</Name>
+          <Error>false</Error>
+          <DisplayName>Itemmanuid</DisplayName>
+          <objectDef idref="g37"/>
+        </Property>
+        <Property id="g3488">
+          <DataSourceName>Storedesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>9</GridColumnLength>
+          <GridColumnName>Storedesc</GridColumnName>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Storedesc</UpperName>
+          <Name>storedesc</Name>
+          <DisplayName>Storedesc</DisplayName>
+          <objectDef idref="g37"/>
+        </Property>
+        <Property id="g3491">
+          <DataSourceName>Effdate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Effdate</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Effdate</UpperName>
+          <Name>effdate</Name>
+          <DisplayName>Effdate</DisplayName>
+          <objectDef idref="g37"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g3574"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g44">
+        <LookupProperty>false</LookupProperty>
+        <PropertyPath>storeid</PropertyPath>
+        <Lookup>false</Lookup>
+        <FromObjectDef idref="g37"/>
+        <EndProperty idref="g38"/>
+        <Property idref="g38"/>
+      </DisplayPropertyPath>
+      <UIProperties total="5">
+        <UIProperty id="g40">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g37"/>
+          <PropertyPath id="g41">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>storeid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g37"/>
+            <EndProperty idref="g38"/>
+            <Property idref="g38"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g42">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>false</UseReport>
+          <ObjectDef idref="g37"/>
+          <PropertyPath id="g43">
+            <LookupProperty>false</LookupProperty>
+            <PropertyPath>itemmanuid</PropertyPath>
+            <Lookup>false</Lookup>
+            <FromObjectDef idref="g37"/>
+            <EndProperty idref="g39"/>
+            <Property idref="g39"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3489">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g37"/>
+          <PropertyPath id="g3490">
+            <PropertyPath>storedesc</PropertyPath>
+            <FromObjectDef idref="g37"/>
+            <EndProperty idref="g3488"/>
+            <Property idref="g3488"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3492">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g37"/>
+          <PropertyPath id="g3493">
+            <PropertyPath>effdate</PropertyPath>
+            <FromObjectDef idref="g37"/>
+            <EndProperty idref="g3491"/>
+            <Property idref="g3491"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3577">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g37"/>
+          <PropertyPath id="g3578">
+            <PropertyPath>jrshdr</PropertyPath>
+            <FromObjectDef idref="g37"/>
+            <EndProperty idref="g3574"/>
+            <Property idref="g3574"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g3494">
+      <ShortName>jrs</ShortName>
+      <PluralLowerName>jrszips</PluralLowerName>
+      <Created>2020-06-04</Created>
+      <PluralDisplayName>JRSZIPS</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <LowerName>jrszip</LowerName>
+      <PkeyDataSourceName>PkJrszip</PkeyDataSourceName>
+      <Color>#DCFFDC</Color>
+      <Bounds>809,52,106,94</Bounds>
+      <Flag>true</Flag>
+      <DataSourceName>Jrszip</DataSourceName>
+      <PluralName>JRSZIPS</PluralName>
+      <LocalOnly>false</LocalOnly>
+      <UseDataSource>true</UseDataSource>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <Name>JRSZIP</Name>
+      <DisplayName>JRSZIP</DisplayName>
+      <model idref="g12"/>
+      <properties total="4">
+        <Property id="g3495">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Zipid</DataSourceName>
+          <Unique>true</Unique>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Zipid</GridColumnName>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2020-06-04</Created>
+          <UpperName>Zipid</UpperName>
+          <Name>zipid</Name>
+          <DisplayName>Zipid</DisplayName>
+          <objectDef idref="g3494"/>
+        </Property>
+        <Property id="g3498">
+          <DataSourceName>Itemmanuid</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Itemmanuid</GridColumnName>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Created>2020-06-04</Created>
+          <Flag>true</Flag>
+          <UpperName>Itemmanuid</UpperName>
+          <Name>itemmanuid</Name>
+          <DisplayName>Itemmanuid</DisplayName>
+          <objectDef idref="g3494"/>
+        </Property>
+        <Property id="g3503">
+          <DataSourceName>Zipdesc</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>5</MaxDisplayLength>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Zipdesc</GridColumnName>
+          <MaxLength>5</MaxLength>
+          <DisplayLength>20</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>String</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Zipdesc</UpperName>
+          <Name>zipdesc</Name>
+          <DisplayName>Zipdesc</DisplayName>
+          <objectDef idref="g3494"/>
+        </Property>
+        <Property id="g3506">
+          <DataSourceName>Effdate</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxDisplayLength>14</MaxDisplayLength>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>Effdate</GridColumnName>
+          <MaxLength>25</MaxLength>
+          <DisplayLength>8</DisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>Date</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>Effdate</UpperName>
+          <Name>effdate</Name>
+          <DisplayName>Effdate</DisplayName>
+          <objectDef idref="g3494"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g3592"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g3501">
+        <PropertyPath>zipid</PropertyPath>
+        <FromObjectDef idref="g3494"/>
+        <EndProperty idref="g3495"/>
+        <Property idref="g3495"/>
+      </DisplayPropertyPath>
+      <UIProperties total="5">
+        <UIProperty id="g3496">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <ObjectDef idref="g3494"/>
+          <PropertyPath id="g3497">
+            <PropertyPath>zipid</PropertyPath>
+            <FromObjectDef idref="g3494"/>
+            <EndProperty idref="g3495"/>
+            <Property idref="g3495"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3499">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3494"/>
+          <PropertyPath id="g3500">
+            <PropertyPath>itemmanuid</PropertyPath>
+            <FromObjectDef idref="g3494"/>
+            <EndProperty idref="g3498"/>
+            <Property idref="g3498"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3504">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3494"/>
+          <PropertyPath id="g3505">
+            <PropertyPath>zipdesc</PropertyPath>
+            <FromObjectDef idref="g3494"/>
+            <EndProperty idref="g3503"/>
+            <Property idref="g3503"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3507">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <ObjectDef idref="g3494"/>
+          <PropertyPath id="g3508">
+            <PropertyPath>effdate</PropertyPath>
+            <FromObjectDef idref="g3494"/>
+            <EndProperty idref="g3506"/>
+            <Property idref="g3506"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g3595">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseTree>false</UseTree>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g3494"/>
+          <PropertyPath id="g3596">
+            <PropertyPath>jrshdr</PropertyPath>
+            <FromObjectDef idref="g3494"/>
+            <EndProperty idref="g3592"/>
+            <Property idref="g3592"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+  </objectDefs>
+  <links total="4">
+    <Link id="g3572">
+      <Width>191</Width>
+      <Calculated>false</Calculated>
+      <Model idref="g12"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g3574">
+          <IndexDataSourceName>JrsstoreJrshdr</IndexDataSourceName>
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <FkeyDataSourceName>FkJrsstoreJrshdr</FkeyDataSourceName>
+          <CreateAdd>true</CreateAdd>
+          <YPos>58</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSHDR</UpperName>
+          <Name>jrshdr</Name>
+          <DisplayName>JRSHDR</DisplayName>
+          <Link idref="g3572"/>
+          <ObjectDef idref="g29"/>
+          <OwnerObjectDef idref="g37"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g3579">
+              <DataSourceName>JrshdrItemmanuid</DataSourceName>
+              <LinkProperty idref="g3574"/>
+              <Property idref="g30"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g3573">
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <CreateAdd>true</CreateAdd>
+          <YPos>38</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <OneAndOnlyOne>true</OneAndOnlyOne>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSSTORE</UpperName>
+          <Name>jrsstore</Name>
+          <DisplayName>JRSSTORE</DisplayName>
+          <Link idref="g3572"/>
+          <ObjectDef idref="g37"/>
+          <OwnerObjectDef idref="g29"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g3574"/>
+      <ToLinkProperty idref="g3573"/>
+    </Link>
+    <Link id="g3581">
+      <Width>92</Width>
+      <Calculated>false</Calculated>
+      <Model idref="g12"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g3583">
+          <IndexDataSourceName>JrsstateJrshdr</IndexDataSourceName>
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <FkeyDataSourceName>FkJrsstateJrshdr</FkeyDataSourceName>
+          <CreateAdd>true</CreateAdd>
+          <YPos>86</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSHDR</UpperName>
+          <Name>jrshdr</Name>
+          <DisplayName>JRSHDR</DisplayName>
+          <Link idref="g3581"/>
+          <ObjectDef idref="g29"/>
+          <OwnerObjectDef idref="g13"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g3588">
+              <DataSourceName>JrshdrItemmanuid</DataSourceName>
+              <LinkProperty idref="g3583"/>
+              <Property idref="g30"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g3582">
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <CreateAdd>true</CreateAdd>
+          <YPos>42</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <OneAndOnlyOne>true</OneAndOnlyOne>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSSTATE</UpperName>
+          <Name>jrsstate</Name>
+          <DisplayName>JRSSTATE</DisplayName>
+          <Link idref="g3581"/>
+          <ObjectDef idref="g13"/>
+          <OwnerObjectDef idref="g29"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g3583"/>
+      <ToLinkProperty idref="g3582"/>
+    </Link>
+    <Link id="g3590">
+      <Width>333</Width>
+      <Calculated>false</Calculated>
+      <Model idref="g12"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g3592">
+          <IndexDataSourceName>JrszipJrshdr</IndexDataSourceName>
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <FkeyDataSourceName>FkJrszipJrshdr</FkeyDataSourceName>
+          <CreateAdd>true</CreateAdd>
+          <YPos>23</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSHDR</UpperName>
+          <Name>jrshdr</Name>
+          <DisplayName>JRSHDR</DisplayName>
+          <Link idref="g3590"/>
+          <ObjectDef idref="g29"/>
+          <OwnerObjectDef idref="g3494"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g3597">
+              <DataSourceName>JrshdrItemmanuid</DataSourceName>
+              <LinkProperty idref="g3592"/>
+              <Property idref="g30"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g3591">
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <CreateAdd>true</CreateAdd>
+          <YPos>48</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <OneAndOnlyOne>true</OneAndOnlyOne>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSZIP</UpperName>
+          <Name>jrszip</Name>
+          <DisplayName>JRSZIP</DisplayName>
+          <Link idref="g3590"/>
+          <ObjectDef idref="g3494"/>
+          <OwnerObjectDef idref="g29"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g3592"/>
+      <ToLinkProperty idref="g3591"/>
+    </Link>
+    <Link id="g3599">
+      <Width>121</Width>
+      <Calculated>false</Calculated>
+      <Model idref="g12"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g3601">
+          <IndexDataSourceName>JrscntyJrsstate</IndexDataSourceName>
+          <CreateNew>false</CreateNew>
+          <Owned>false</Owned>
+          <FkeyDataSourceName>FkJrscntyJrsstate</FkeyDataSourceName>
+          <CreateAdd>true</CreateAdd>
+          <YPos>51</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>0</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSSTATE</UpperName>
+          <Name>jrsstate</Name>
+          <DisplayName>JRSSTATE</DisplayName>
+          <Link idref="g3599"/>
+          <ObjectDef idref="g13"/>
+          <OwnerObjectDef idref="g45"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g3606">
+              <DataSourceName>JrsstateStateid</DataSourceName>
+              <LinkProperty idref="g3601"/>
+              <Property idref="g14"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g3600">
+          <CreateNew>false</CreateNew>
+          <Owned>false</Owned>
+          <CreateAdd>false</CreateAdd>
+          <YPos>31</YPos>
+          <CreateMethod>false</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <Type>1</Type>
+          <Created>2020-06-04</Created>
+          <UpperName>JRSCNTies</UpperName>
+          <Name>jrscnties</Name>
+          <DisplayName>JRSCNTIES</DisplayName>
+          <Link idref="g3599"/>
+          <ObjectDef idref="g45"/>
+          <OwnerObjectDef idref="g13"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g3601"/>
+      <ToLinkProperty idref="g3600"/>
+    </Link>
+  </links>
+  <Changes total="10">
+    <Change id="g53">
+      <UpdateCode><![CDATA[-- OBJECT JRSSTATE Added
+-- Table Jrsstate For JRSSTATE
+CREATE TABLE Jrsstate(
+    Stateid int NOT NULL,
+    Itemmanuid int,
+    Statedesc VARCHAR(10),
+    Allcnty bit,
+    Effdate datetime,
+    null null
+);
+ALTER TABLE Jrsstate Add Constraint PkJrsstate PRIMARY KEY (Stateid);
+ ]]></UpdateCode>
+      <Object idref="g13"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSSTATE Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g55">
+      <UpdateCode><![CDATA[-- OBJECT JRSHDR Added
+-- Table Jrshdr For JRSHDR
+CREATE TABLE Jrshdr(
+    Itemmanuid int NOT NULL,
+    Typeid int,
+    Line VARCHAR(3),
+    Vendor VARCHAR(60),
+    Item VARCHAR(60),
+    Plcd VARCHAR(2),
+    Subc VARCHAR(2),
+    Level char(1),
+    Itemdesc VARCHAR(25),
+    Rstritem bit,
+    Flightitem bit
+);
+ALTER TABLE Jrshdr Add Constraint PkJrshdr PRIMARY KEY (Itemmanuid);
+ ]]></UpdateCode>
+      <Object idref="g29"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSHDR Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g56">
+      <UpdateCode><![CDATA[-- OBJECT JRSSTORE Added
+-- Table Jrsstore For JRSSTORE
+CREATE TABLE Jrsstore(
+    Storeid int NOT NULL,
+    Itemmanuid int,
+    Storedesc int,
+    Effdate datetime
+);
+ALTER TABLE Jrsstore Add Constraint PkJrsstore PRIMARY KEY (Storeid);
+ ]]></UpdateCode>
+      <Object idref="g37"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSSTORE Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g57">
+      <UpdateCode><![CDATA[-- OBJECT JRSCNTY Added
+-- Table Jrscnty For JRSCNTY
+CREATE TABLE Jrscnty(
+    Cntyid int NOT NULL,
+    Stateid int,
+    Countydesc VARCHAR(10),
+    Effdate datetime
+);
+ALTER TABLE Jrscnty Add Constraint PkJrscnty PRIMARY KEY (Cntyid);
+ ]]></UpdateCode>
+      <Object idref="g45"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSCNTY Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3445">
+      <UpdateCode><![CDATA[-- OBJECT JRSCHGS Added
+-- Table Jrshdr For JRSCHGS
+CREATE TABLE Jrshdr(
+    Itemmanuid int NOT NULL,
+    Line VARCHAR(3),
+    Plcd VARCHAR(2),
+    Subc VARCHAR(2),
+    Level char(1),
+    Vendor VARCHAR(60),
+    Itemdesc VARCHAR(25),
+    Item VARCHAR(60),
+    Resstate VARCHAR(2),
+    Effdate datetime,
+    Rescounty VARCHAR(10),
+    Reszip int,
+    Resstore int,
+    Origin char(1)
+);
+ALTER TABLE Jrshdr Add Constraint PkJrshdr PRIMARY KEY (Itemmanuid);
+ ]]></UpdateCode>
+      <Object idref="g3410"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSCHGS Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3502">
+      <UpdateCode><![CDATA[-- OBJECT JRSZIP Added
+-- Table Jrszip For JRSZIP
+CREATE TABLE Jrszip(
+    Zipid int NOT NULL,
+    Itemmanuid int,
+    Zipdesc VARCHAR(5),
+    Effdate datetime
+);
+ALTER TABLE Jrszip Add Constraint PkJrszip PRIMARY KEY (Zipid);
+ ]]></UpdateCode>
+      <Object idref="g3494"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT JRSZIP Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3580">
+      <UpdateCode><![CDATA[-- LINK a jrshdr has a jrsstore Added
+ALTER TABLE Jrsstore ADD COLUMN JrshdrItemmanuid int;
+ALTER TABLE Jrsstore ADD CONSTRAINT FkJrsstoreJrshdr FOREIGN KEY (JrshdrItemmanuid) REFERENCES Jrshdr (Itemmanuid);
+CREATE INDEX JrsstoreJrshdr ON Jrsstore (JrshdrItemmanuid);]]></UpdateCode>
+      <Object idref="g3572"/>
+      <Type>21</Type>
+      <DisplayName>LINK a jrshdr has a jrsstore Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3589">
+      <UpdateCode><![CDATA[-- LINK a jrshdr has a jrsstate Added
+ALTER TABLE Jrsstate ADD COLUMN JrshdrItemmanuid int;
+ALTER TABLE Jrsstate ADD CONSTRAINT FkJrsstateJrshdr FOREIGN KEY (JrshdrItemmanuid) REFERENCES Jrshdr (Itemmanuid);
+CREATE INDEX JrsstateJrshdr ON Jrsstate (JrshdrItemmanuid);]]></UpdateCode>
+      <Object idref="g3581"/>
+      <Type>21</Type>
+      <DisplayName>LINK a jrshdr has a jrsstate Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3598">
+      <UpdateCode><![CDATA[-- LINK a jrshdr has a jrszip Added
+ALTER TABLE Jrszip ADD COLUMN JrshdrItemmanuid int;
+ALTER TABLE Jrszip ADD CONSTRAINT FkJrszipJrshdr FOREIGN KEY (JrshdrItemmanuid) REFERENCES Jrshdr (Itemmanuid);
+CREATE INDEX JrszipJrshdr ON Jrszip (JrshdrItemmanuid);]]></UpdateCode>
+      <Object idref="g3590"/>
+      <Type>21</Type>
+      <DisplayName>LINK a jrshdr has a jrszip Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+    <Change id="g3607">
+      <UpdateCode><![CDATA[-- LINK a jrsstate has many jrscnties Added
+ALTER TABLE Jrscnty ADD COLUMN JrsstateStateid int;
+ALTER TABLE Jrscnty ADD CONSTRAINT FkJrscntyJrsstate FOREIGN KEY (JrsstateStateid) REFERENCES Jrsstate (Stateid);
+CREATE INDEX JrscntyJrsstate ON Jrscnty (JrsstateStateid);]]></UpdateCode>
+      <Object idref="g3599"/>
+      <Type>21</Type>
+      <DisplayName>LINK many jrscnties have a jrsstate Added</DisplayName>
+      <model idref="g12"/>
+    </Change>
+  </Changes>
+  <DBMetaData id="g58">
+    <DatabaseType>0</DatabaseType>
+    <FkeysAutoCreateIndex>false</FkeysAutoCreateIndex>
+    <AllowStatementPooling>true</AllowStatementPooling>
+    <UseBracket>false</UseBracket>
+    <LeftBracket></LeftBracket>
+    <RightBracket></RightBracket>
+    <DistinctKeyword>DISTINCT</DistinctKeyword>
+    <BlanksAsNulls>false</BlanksAsNulls>
+    <UseOuterJoinEscape>false</UseOuterJoinEscape>
+    <OuterjoinStart></OuterjoinStart>
+    <OuterjoinEnd></OuterjoinEnd>
+    <BooleanKeyword>false</BooleanKeyword>
+    <DatesIncludeTime>false</DatesIncludeTime>
+    <UseExists>false</UseExists>
+    <UseBackslashForEscape>false</UseBackslashForEscape>
+    <CaseSensitive>false</CaseSensitive>
+    <LowerCaseFunction>LOWER</LowerCaseFunction>
+    <SupportsAutoAssign>false</SupportsAutoAssign>
+    <AutoAssignValue></AutoAssignValue>
+    <MaxConnections>10</MaxConnections>
+    <MinConnections>3</MinConnections>
+    <MaxVarcharLength>255</MaxVarcharLength>
+    <LikeKeyword>LIKE</LikeKeyword>
+    <Name>Other</Name>
+  </DBMetaData>
+</Model>
+</OAXML>
