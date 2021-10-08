@@ -1,0 +1,1246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='08/11/21 09:59 AM'>
+<Model id="g13401" class="com.viaoa.builder.model.Model">
+  <SizeType>1</SizeType>
+  <ShowLookups>true</ShowLookups>
+  <MinimizeLookups>false</MinimizeLookups>
+  <ShowHiddenObjects>true</ShowHiddenObjects>
+  <ShowAllLinks>true</ShowAllLinks>
+  <Hilite>true</Hilite>
+  <LinkMode>false</LinkMode>
+  <MoveMode>false</MoveMode>
+  <OABuilderVersion>202108030</OABuilderVersion>
+  <LowerName>untitled</LowerName>
+  <RootDirectory>\home\vvia\git\oabuilder-models\model</RootDirectory>
+  <SourceDirectory>src\main\java</SourceDirectory>
+  <Scale>1.0</Scale>
+  <Name>Untitled</Name>
+  <FileName>/home/vvia/git/oabuilder-models/model/MessageService.obx</FileName>
+  <PackageName></PackageName>
+  <DisplayName>Untitled</DisplayName>
+  <objectDefs total="4">
+    <ObjectDef id="g13404">
+      <Created>2021-08-11</Created>
+      <PkeyDataSourceName>PkBatch</PkeyDataSourceName>
+      <PluralDisplayName>Batches</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>38,23,150,213</Bounds>
+      <DataSourceName>Batch</DataSourceName>
+      <PluralName>Batches</PluralName>
+      <LowerName>batch</LowerName>
+      <PluralLowerName>batches</PluralLowerName>
+      <ShortName>btc</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>Batch</Name>
+      <DisplayName>Batch</DisplayName>
+      <model idref="g13401"/>
+      <properties total="11">
+        <Property id="g13405">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Unique>true</Unique>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2021-08-11</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13408">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13508">
+          <DataSourceName>FromStore</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>From Store</GridColumnName>
+          <Type>int</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>FromStore</UpperName>
+          <Name>fromStore</Name>
+          <DisplayName>From Store</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13496">
+          <DataSourceName>SessionStart</DataSourceName>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Session Start</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>SessionStart</UpperName>
+          <Name>sessionStart</Name>
+          <DisplayName>Session Start</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13499">
+          <DataSourceName>SessionSeq</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>11</GridColumnLength>
+          <GridColumnName>Session Seq</GridColumnName>
+          <Type>int</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>SessionSeq</UpperName>
+          <Name>sessionSeq</Name>
+          <DisplayName>Session Seq</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13502">
+          <DataSourceName>PreviousSessionStart</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>22</GridColumnLength>
+          <GridColumnName>Previous Session Start</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>PreviousSessionStart</UpperName>
+          <Name>previousSessionStart</Name>
+          <DisplayName>Previous Session Start</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13505">
+          <DataSourceName>PreviousSessionSeq</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Previous Session Seq</GridColumnName>
+          <Type>int</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>PreviousSessionSeq</UpperName>
+          <Name>previousSessionSeq</Name>
+          <DisplayName>Previous Session Seq</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13511">
+          <DataSourceName>ToStore</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>8</GridColumnLength>
+          <GridColumnName>To Store</GridColumnName>
+          <Type>int</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>ToStore</UpperName>
+          <Name>toStore</Name>
+          <DisplayName>To Store</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13514">
+          <DataSourceName>Data</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>30</DisplayLength>
+          <MaxDisplayLength>150</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Data</GridColumnName>
+          <Type>String (Long)</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Data</UpperName>
+          <Name>data</Name>
+          <DisplayName>Data</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13517">
+          <DataSourceName>Available</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Available</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Available</UpperName>
+          <Name>available</Name>
+          <DisplayName>Available</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+        <Property id="g13520">
+          <DataSourceName>ReadyToUse</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Ready To Use</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>ReadyToUse</UpperName>
+          <Name>readyToUse</Name>
+          <DisplayName>Ready To Use</DisplayName>
+          <objectDef idref="g13404"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g13542"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g13411">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g13404"/>
+        <EndProperty idref="g13405"/>
+        <Property idref="g13405"/>
+      </DisplayPropertyPath>
+      <UIProperties total="12">
+        <UIProperty id="g13406">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13407">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13405"/>
+            <Property idref="g13405"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13409">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13410">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13408"/>
+            <Property idref="g13408"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13497">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13498">
+            <PropertyPath>sessionStart</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13496"/>
+            <Property idref="g13496"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13500">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13501">
+            <PropertyPath>sessionSeq</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13499"/>
+            <Property idref="g13499"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13503">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13504">
+            <PropertyPath>previousSessionStart</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13502"/>
+            <Property idref="g13502"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13506">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13507">
+            <PropertyPath>previousSessionSeq</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13505"/>
+            <Property idref="g13505"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13509">
+          <Seq>6</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13510">
+            <PropertyPath>fromStore</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13508"/>
+            <Property idref="g13508"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13512">
+          <Seq>7</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13513">
+            <PropertyPath>toStore</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13511"/>
+            <Property idref="g13511"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13515">
+          <Seq>8</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13516">
+            <PropertyPath>data</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13514"/>
+            <Property idref="g13514"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13518">
+          <Seq>9</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13519">
+            <PropertyPath>available</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13517"/>
+            <Property idref="g13517"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13521">
+          <Seq>10</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13522">
+            <PropertyPath>readyToUse</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13520"/>
+            <Property idref="g13520"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13544">
+          <Seq>11</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g13404"/>
+          <PropertyPath id="g13545">
+            <PropertyPath>messages</PropertyPath>
+            <FromObjectDef idref="g13404"/>
+            <EndProperty idref="g13542"/>
+            <Property idref="g13542"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g13523">
+      <Created>2021-08-11</Created>
+      <PkeyDataSourceName>PkMessage</PkeyDataSourceName>
+      <PluralDisplayName>Messages</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>293,140,90,111</Bounds>
+      <DataSourceName>Message</DataSourceName>
+      <PluralName>Messages</PluralName>
+      <LowerName>message</LowerName>
+      <PluralLowerName>messages</PluralLowerName>
+      <ShortName>mss</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>Message</Name>
+      <DisplayName>Message</DisplayName>
+      <model idref="g13401"/>
+      <properties total="5">
+        <Property id="g13524">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Unique>true</Unique>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2021-08-11</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g13523"/>
+        </Property>
+        <Property id="g13527">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g13523"/>
+        </Property>
+        <Property id="g13532">
+          <DataSourceName>Type</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>32</MaxLength>
+          <DisplayLength>12</DisplayLength>
+          <MaxDisplayLength>32</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>10</GridColumnLength>
+          <GridColumnName>Type</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Type</UpperName>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <objectDef idref="g13523"/>
+        </Property>
+        <Property id="g13535">
+          <DataSourceName>Name</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>55</MaxLength>
+          <DisplayLength>16</DisplayLength>
+          <MaxDisplayLength>55</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>16</GridColumnLength>
+          <GridColumnName>Name</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Name</UpperName>
+          <Name>name</Name>
+          <DisplayName>Name</DisplayName>
+          <objectDef idref="g13523"/>
+        </Property>
+        <Property id="g13538">
+          <DataSourceName>Data</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <DisplayLength>30</DisplayLength>
+          <MaxDisplayLength>150</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Data</GridColumnName>
+          <Type>String (Long)</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Data</UpperName>
+          <Name>data</Name>
+          <DisplayName>Data</DisplayName>
+          <objectDef idref="g13523"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g13543"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g13530">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g13523"/>
+        <EndProperty idref="g13524"/>
+        <Property idref="g13524"/>
+      </DisplayPropertyPath>
+      <UIProperties total="6">
+        <UIProperty id="g13525">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13526">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13524"/>
+            <Property idref="g13524"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13528">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13529">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13527"/>
+            <Property idref="g13527"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13533">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13534">
+            <PropertyPath>type</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13532"/>
+            <Property idref="g13532"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13536">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13537">
+            <PropertyPath>name</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13535"/>
+            <Property idref="g13535"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13539">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13540">
+            <PropertyPath>data</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13538"/>
+            <Property idref="g13538"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13546">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g13523"/>
+          <PropertyPath id="g13547">
+            <PropertyPath>batch</PropertyPath>
+            <FromObjectDef idref="g13523"/>
+            <EndProperty idref="g13543"/>
+            <Property idref="g13543"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g13487">
+      <Created>2021-08-11</Created>
+      <PkeyDataSourceName>PkReceive</PkeyDataSourceName>
+      <PluralDisplayName>Receives</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>701,310,90,128</Bounds>
+      <DataSourceName>Receive</DataSourceName>
+      <PluralName>Receives</PluralName>
+      <LowerName>receive</LowerName>
+      <PluralLowerName>receives</PluralLowerName>
+      <ShortName>rcv</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>Receive</Name>
+      <DisplayName>Receive</DisplayName>
+      <model idref="g13401"/>
+      <properties total="6">
+        <Property id="g13488">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Unique>true</Unique>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2021-08-11</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+        <Property id="g13491">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+        <Property id="g13550">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Type</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>32</MaxLength>
+          <DisplayLength>12</DisplayLength>
+          <MaxDisplayLength>32</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>12</GridColumnLength>
+          <GridColumnName>Type</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Type</UpperName>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+        <Property id="g13559">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Name</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>55</MaxLength>
+          <DisplayLength>16</DisplayLength>
+          <MaxDisplayLength>55</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>16</GridColumnLength>
+          <GridColumnName>Name</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Name</UpperName>
+          <Name>name</Name>
+          <DisplayName>Name</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+        <Property id="g13562">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Data</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <DisplayLength>30</DisplayLength>
+          <MaxDisplayLength>150</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Data</GridColumnName>
+          <Type>String (Long)</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Data</UpperName>
+          <Name>data</Name>
+          <DisplayName>Data</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+        <Property id="g13570">
+          <DataSourceName>Processed</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Processed</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Processed</UpperName>
+          <Name>processed</Name>
+          <DisplayName>Processed</DisplayName>
+          <objectDef idref="g13487"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g13494">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g13487"/>
+        <EndProperty idref="g13488"/>
+        <Property idref="g13488"/>
+      </DisplayPropertyPath>
+      <UIProperties total="6">
+        <UIProperty id="g13489">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13490">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13488"/>
+            <Property idref="g13488"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13492">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13493">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13491"/>
+            <Property idref="g13491"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13551">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13552">
+            <PropertyPath>type</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13550"/>
+            <Property idref="g13550"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13560">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13561">
+            <PropertyPath>name</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13559"/>
+            <Property idref="g13559"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13563">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13564">
+            <PropertyPath>data</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13562"/>
+            <Property idref="g13562"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13571">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13487"/>
+          <PropertyPath id="g13572">
+            <PropertyPath>processed</PropertyPath>
+            <FromObjectDef idref="g13487"/>
+            <EndProperty idref="g13570"/>
+            <Property idref="g13570"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g13478">
+      <Created>2021-08-11</Created>
+      <PkeyDataSourceName>PkSend</PkeyDataSourceName>
+      <PluralDisplayName>Sends</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>344,332,99,128</Bounds>
+      <DataSourceName>Send</DataSourceName>
+      <PluralName>Sends</PluralName>
+      <LowerName>send</LowerName>
+      <PluralLowerName>sends</PluralLowerName>
+      <ShortName>snd</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>Send</Name>
+      <DisplayName>Send</DisplayName>
+      <model idref="g13401"/>
+      <properties total="6">
+        <Property id="g13479">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Unique>true</Unique>
+          <Timestamp>false</Timestamp>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2021-08-11</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+        <Property id="g13482">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Created</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+        <Property id="g13553">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Type</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>32</MaxLength>
+          <DisplayLength>12</DisplayLength>
+          <MaxDisplayLength>32</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>12</GridColumnLength>
+          <GridColumnName>Type</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Type</UpperName>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+        <Property id="g13556">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Name</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>55</MaxLength>
+          <DisplayLength>16</DisplayLength>
+          <MaxDisplayLength>55</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>16</GridColumnLength>
+          <GridColumnName>Name</GridColumnName>
+          <Type>String</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Name</UpperName>
+          <Name>name</Name>
+          <DisplayName>Name</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+        <Property id="g13567">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Data</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <DisplayLength>30</DisplayLength>
+          <MaxDisplayLength>150</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>20</GridColumnLength>
+          <GridColumnName>Data</GridColumnName>
+          <Type>String (Long)</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Data</UpperName>
+          <Name>data</Name>
+          <DisplayName>Data</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+        <Property id="g13573">
+          <AutoAssign>false</AutoAssign>
+          <UsesSHA>false</UsesSHA>
+          <DataSourceName>Processed</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <MaxLength>40</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Processed</GridColumnName>
+          <Type>DateTime</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Processed</UpperName>
+          <Name>processed</Name>
+          <DisplayName>Processed</DisplayName>
+          <objectDef idref="g13478"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g13485">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g13478"/>
+        <EndProperty idref="g13479"/>
+        <Property idref="g13479"/>
+      </DisplayPropertyPath>
+      <UIProperties total="6">
+        <UIProperty id="g13480">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13481">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13479"/>
+            <Property idref="g13479"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13483">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13484">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13482"/>
+            <Property idref="g13482"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13554">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13555">
+            <PropertyPath>type</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13553"/>
+            <Property idref="g13553"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13557">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13558">
+            <PropertyPath>name</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13556"/>
+            <Property idref="g13556"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13568">
+          <Seq>4</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13569">
+            <PropertyPath>data</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13567"/>
+            <Property idref="g13567"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g13574">
+          <Seq>5</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g13478"/>
+          <PropertyPath id="g13575">
+            <PropertyPath>processed</PropertyPath>
+            <FromObjectDef idref="g13478"/>
+            <EndProperty idref="g13573"/>
+            <Property idref="g13573"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+  </objectDefs>
+  <links total="1">
+    <Link id="g13541">
+      <Width>117</Width>
+      <Model idref="g13401"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g13543">
+          <IndexDataSourceName>MessageBatch</IndexDataSourceName>
+          <CreateAdd>true</CreateAdd>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <CascadeDelete>false</CascadeDelete>
+          <CreateNew>false</CreateNew>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Owned>false</Owned>
+          <FkeyDataSourceName>FkMessageBatch</FkeyDataSourceName>
+          <YPos>36</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <CascadeSave>false</CascadeSave>
+          <AllowDelete>true</AllowDelete>
+          <Type>0</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Batch</UpperName>
+          <Name>batch</Name>
+          <DisplayName>Batch</DisplayName>
+          <Link idref="g13541"/>
+          <ObjectDef idref="g13404"/>
+          <OwnerObjectDef idref="g13523"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g13548">
+              <DataSourceName>BatchId</DataSourceName>
+              <LinkProperty idref="g13543"/>
+              <Property idref="g13405"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g13542">
+          <CreateAdd>true</CreateAdd>
+          <Required>false</Required>
+          <ImportMatch>false</ImportMatch>
+          <CascadeDelete>false</CascadeDelete>
+          <CreateNew>true</CreateNew>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Owned>false</Owned>
+          <YPos>53</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <CascadeSave>false</CascadeSave>
+          <AllowDelete>true</AllowDelete>
+          <Type>1</Type>
+          <Created>2021-08-11</Created>
+          <UpperName>Messages</UpperName>
+          <Name>messages</Name>
+          <DisplayName>Messages</DisplayName>
+          <Link idref="g13541"/>
+          <ObjectDef idref="g13523"/>
+          <OwnerObjectDef idref="g13404"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g13543"/>
+      <ToLinkProperty idref="g13542"/>
+    </Link>
+  </links>
+  <Changes total="5">
+    <Change id="g13412">
+      <UpdateCode><![CDATA[-- OBJECT Batch Added
+-- Table Batch For Batch
+CREATE TABLE Batch(
+    Id int NOT NULL,
+    Created DATETIME,
+    FromStore int,
+    SessionStart DATETIME,
+    SessionSeq int,
+    PreviousSessionStart DATETIME,
+    PreviousSessionSeq int,
+    ToStore int,
+    Data ,
+    Available DATETIME,
+    ReadyToUse DATETIME
+);
+ALTER TABLE Batch Add Constraint PkBatch PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g13404"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT Batch Added</DisplayName>
+      <model idref="g13401"/>
+    </Change>
+    <Change id="g13495">
+      <UpdateCode><![CDATA[-- OBJECT Receive Added
+-- Table Receive For Receive
+CREATE TABLE Receive(
+    Id int NOT NULL,
+    Created DATETIME,
+    Type VARCHAR(32),
+    Name VARCHAR(55),
+    Data ,
+    Processed DATETIME
+);
+ALTER TABLE Receive Add Constraint PkReceive PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g13487"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT Receive Added</DisplayName>
+      <model idref="g13401"/>
+    </Change>
+    <Change id="g13531">
+      <UpdateCode><![CDATA[-- OBJECT Message Added
+-- Table Message For Message
+CREATE TABLE Message(
+    Id int NOT NULL,
+    Created DATETIME,
+    Type VARCHAR(32),
+    Name VARCHAR(55),
+    Data 
+);
+ALTER TABLE Message Add Constraint PkMessage PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g13523"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT Message Added</DisplayName>
+      <model idref="g13401"/>
+    </Change>
+    <Change id="g13549">
+      <UpdateCode><![CDATA[-- LINK a batch has many messages Added
+ALTER TABLE Message ADD COLUMN BatchId int;
+ALTER TABLE Message ADD CONSTRAINT FkMessageBatch FOREIGN KEY (BatchId) REFERENCES Batch (Id);
+CREATE INDEX MessageBatch ON Message (BatchId);]]></UpdateCode>
+      <Object idref="g13541"/>
+      <Type>21</Type>
+      <DisplayName>LINK a batch has many messages Added</DisplayName>
+      <model idref="g13401"/>
+    </Change>
+    <Change id="g13566">
+      <UpdateCode><![CDATA[-- OBJECT Send Added
+-- Table Send For Send
+CREATE TABLE Send(
+    Id int NOT NULL,
+    Created DATETIME,
+    Type VARCHAR(32),
+    Name VARCHAR(55),
+    Data ,
+    Processed DATETIME
+);
+ALTER TABLE Send Add Constraint PkSend PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g13478"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT Send Added</DisplayName>
+      <model idref="g13401"/>
+    </Change>
+  </Changes>
+  <DBMetaData id="g13403">
+    <LeftBracket></LeftBracket>
+    <RightBracket></RightBracket>
+    <DistinctKeyword>DISTINCT</DistinctKeyword>
+    <OuterjoinStart></OuterjoinStart>
+    <OuterjoinEnd></OuterjoinEnd>
+    <LikeKeyword>LIKE</LikeKeyword>
+  </DBMetaData>
+  <ObjectCallbackTypes total="31">
+    <ObjectCallbackType id="g13413">
+      <Name>Unknown</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13414">
+      <Name>AllowEnabled</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13415">
+      <Name>AllowVisible</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13416">
+      <Name>AllowNew</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13417">
+      <Name>AllowAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13418">
+      <Name>AllowRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13419">
+      <Name>AllowRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13420">
+      <Name>AllowDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13421">
+      <Name>AllowSave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13422">
+      <Name>AllowCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13423">
+      <Name>AllowSubmit</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13424">
+      <Name>VerifyPropertyChange</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13425">
+      <Name>VerifyAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13426">
+      <Name>VerifyRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13427">
+      <Name>VerifyRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13428">
+      <Name>VerifyDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13429">
+      <Name>VerifySave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13430">
+      <Name>VerifyCommand</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13431">
+      <Name>GetCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13432">
+      <Name>AfterCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13433">
+      <Name>SetConfirmForPropertyChange</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13434">
+      <Name>SetConfirmForAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13435">
+      <Name>SetConfirmForRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13436">
+      <Name>SetConfirmForRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13437">
+      <Name>SetConfirmForDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13438">
+      <Name>SetConfirmForSave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13439">
+      <Name>SetConfirmForCommand</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13440">
+      <Name>GetToolTip</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13441">
+      <Name>RenderLabel</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13442">
+      <Name>UpdateLabel</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g13443">
+      <Name>GetFormat</Name>
+    </ObjectCallbackType>
+  </ObjectCallbackTypes>
+</Model>
+</OAXML>
