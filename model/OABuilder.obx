@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='03/20/22 08:16 PM'>
+<Hub class="com.viaoa.datasource.jdbc.db.DBMetaData" total="0">
+</Hub>
+<Hub class="com.viaoa.builder.model.MruInfo" total="1">
+  <MruInfo id="g1">
+    <RootDirectory>C:\Users\vvia\git\cdi-scheduler</RootDirectory>
+    <Opened>true</Opened>
+    <Bounds>0,0,767,311</Bounds>
+    <FileName>/home/vvia/git/oabuilder-models/model/CDI3.obx</FileName>
+  </MruInfo>
+</Hub>
+<Setting id="g2" class="com.viaoa.builder.model.Setting">
+  <ExtendedState>0</ExtendedState>
+  <Bounds>2142,86,1029,855</Bounds>
+</Setting>
+</OAXML>
