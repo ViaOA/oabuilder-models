@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<OAXML VERSION='2.0' DATETIME='01/16/23 01:53 PM'>
+<OAXML VERSION='2.0' DATETIME='01/20/23 06:37 AM'>
 <Model id="g57" class="com.viaoa.builder.model.Model">
   <SizeType>0</SizeType>
   <Console>Verifying model ========== Done</Console>
@@ -29,7 +29,9 @@
   <AdminCompareValue>false</AdminCompareValue>
   <DefaultDirtyDatabase>false</DefaultDirtyDatabase>
   <UseGeneratedByOABuilderText>true</UseGeneratedByOABuilderText>
-  <Description>used by OABuilder to load model in Pojos, and used by PojoGenerator</Description>
+  <Description><![CDATA[used by OABuilder to have PojoLoader load model in Pojos, and used by 
+    PojoGenerator.<br>used by OAObjectInfo to have OAPojoLoader load models to 
+    use for json deserialization.]]></Description>
   <Name>OABuilderPojo</Name>
   <PackageName>com.viaoa.builder</PackageName>
   <FileName>/home/vvia/git/oabuilder-models/model/OABuilderPojo.obx</FileName>
@@ -40,6 +42,8 @@
   <Scale>1.0</Scale>
   <objectDefs total="10">
     <ObjectDef id="g100">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -63,17 +67,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojo</PkeyDataSourceName>
       <PluralDisplayName>Pojos</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojo</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#00FF00</Color>
       <Name>Pojo</Name>
+      <Color>#00FF00</Color>
       <Bounds>86,84,90,118</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -90,9 +92,9 @@
       <model idref="g57"/>
       <properties total="1">
         <Property id="g101">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -112,11 +114,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Name</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -138,18 +140,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -172,9 +174,9 @@
         <LookupProperty>false</LookupProperty>
         <FromObjectDef idref="g100"/>
         <EndProperty id="g109" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -194,11 +196,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -220,18 +222,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -259,7 +261,7 @@
             <FromObjectDef idref="g100"/>
             <EndProperty idref="g60"/>
             <Property idref="g60"/>
-            <ToObjectDef idref="g200"/>
+            <ToObjectDef idref="g201"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g104">
@@ -275,7 +277,7 @@
             <FromObjectDef idref="g100"/>
             <EndProperty idref="g87"/>
             <Property idref="g87"/>
-            <ToObjectDef idref="g131"/>
+            <ToObjectDef idref="g119"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g106">
@@ -297,6 +299,8 @@
       </UIProperties>
     </ObjectDef>
     <ObjectDef id="g110">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -320,17 +324,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoImportMatch</PkeyDataSourceName>
       <PluralDisplayName>Pojo Import Matches</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoImportMatch</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#FFFF80</Color>
       <Name>PojoImportMatch</Name>
+      <Color>#FFFF80</Color>
       <Bounds>649,255,151,44</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -346,8 +348,8 @@
       <UseDataSource>false</UseDataSource>
       <model idref="g57"/>
       <LinkProperties total="3">
-        <LinkProperty idref="g78"/>
         <LinkProperty idref="g65"/>
+        <LinkProperty idref="g78"/>
         <LinkProperty idref="g84"/>
       </LinkProperties>
       <DisplayPropertyPath id="g117">
@@ -356,9 +358,9 @@
         <LookupProperty>false</LookupProperty>
         <FromObjectDef idref="g110"/>
         <EndProperty id="g118" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -378,11 +380,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -404,18 +406,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -443,7 +445,7 @@
             <FromObjectDef idref="g110"/>
             <EndProperty idref="g65"/>
             <Property idref="g65"/>
-            <ToObjectDef idref="g155"/>
+            <ToObjectDef idref="g143"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g113">
@@ -454,12 +456,12 @@
           <ObjectDef idref="g110"/>
           <PropertyPath id="g114">
             <Lookup>false</Lookup>
-            <PropertyPath>pojoImportMatchLink</PropertyPath>
+            <PropertyPath>pojoLinkOneReference</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g110"/>
             <EndProperty idref="g78"/>
             <Property idref="g78"/>
-            <ToObjectDef idref="g119"/>
+            <ToObjectDef idref="g156"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g115">
@@ -481,6 +483,8 @@
       </UIProperties>
     </ObjectDef>
     <ObjectDef id="g119">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -504,36 +508,34 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
-      <PluralDisplayName>Pojo Import Match Links</PluralDisplayName>
+      <PkeyDataSourceName>PkPojoLink</PkeyDataSourceName>
+      <PluralDisplayName>Pojo Links</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoImportMatchLink</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#FFFFDC</Color>
-      <Name>PojoImportMatchLink</Name>
-      <Bounds>946,417,200,63</Bounds>
+      <Name>PojoLink</Name>
+      <Color>#DCFFDC</Color>
+      <Bounds>254,186,102,72</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
-      <DataSourceName>PojoImportMatchLink</DataSourceName>
-      <PluralName>PojoImportMatchLinks</PluralName>
+      <DataSourceName>PojoLink</DataSourceName>
+      <PluralName>PojoLinks</PluralName>
       <Processed>false</Processed>
-      <LowerName>pojoImportMatchLink</LowerName>
-      <PluralLowerName>pojoImportMatchLinks</PluralLowerName>
-      <DisplayName>Pojo Import Match Link</DisplayName>
-      <ShortName>pim</ShortName>
+      <LowerName>pojoLink</LowerName>
+      <PluralLowerName>pojoLinks</PluralLowerName>
+      <DisplayName>Pojo Link</DisplayName>
+      <ShortName>pjl</ShortName>
       <LocalOnly>false</LocalOnly>
       <InitializeNewObjects>true</InitializeNewObjects>
       <UseDataSource>false</UseDataSource>
       <model idref="g57"/>
       <properties total="1">
         <Property id="g120">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -553,11 +555,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Name</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -579,18 +581,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -604,9 +606,9 @@
         </Property>
       </properties>
       <LinkProperties total="3">
-        <LinkProperty idref="g77"/>
-        <LinkProperty idref="g81"/>
-        <LinkProperty idref="g95"/>
+        <LinkProperty idref="g86"/>
+        <LinkProperty idref="g99"/>
+        <LinkProperty idref="g90"/>
       </LinkProperties>
       <DisplayPropertyPath id="g129">
         <Lookup>false</Lookup>
@@ -614,9 +616,9 @@
         <LookupProperty>false</LookupProperty>
         <FromObjectDef idref="g119"/>
         <EndProperty id="g130" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -636,11 +638,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -662,18 +664,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -696,12 +698,12 @@
           <ObjectDef idref="g119"/>
           <PropertyPath id="g122">
             <Lookup>false</Lookup>
-            <PropertyPath>pojoImportMatch</PropertyPath>
+            <PropertyPath>pojo</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g119"/>
-            <EndProperty idref="g77"/>
-            <Property idref="g77"/>
-            <ToObjectDef idref="g110"/>
+            <EndProperty idref="g86"/>
+            <Property idref="g86"/>
+            <ToObjectDef idref="g100"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g123">
@@ -715,9 +717,9 @@
             <PropertyPath>pojoLinkOne</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g119"/>
-            <EndProperty idref="g81"/>
-            <Property idref="g81"/>
-            <ToObjectDef idref="g155"/>
+            <EndProperty idref="g90"/>
+            <Property idref="g90"/>
+            <ToObjectDef idref="g143"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g125">
@@ -728,12 +730,12 @@
           <ObjectDef idref="g119"/>
           <PropertyPath id="g126">
             <Lookup>false</Lookup>
-            <PropertyPath>pojoLinkUnique</PropertyPath>
+            <PropertyPath>name</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g119"/>
-            <EndProperty idref="g95"/>
-            <Property idref="g95"/>
-            <ToObjectDef idref="g168"/>
+            <EndProperty idref="g120"/>
+            <Property idref="g120"/>
+            <ToObjectDef idref="g119"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g127">
@@ -744,291 +746,19 @@
           <ObjectDef idref="g119"/>
           <PropertyPath id="g128">
             <Lookup>false</Lookup>
-            <PropertyPath>name</PropertyPath>
+            <PropertyPath>pojoLinkMany</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g119"/>
-            <EndProperty idref="g120"/>
-            <Property idref="g120"/>
-            <ToObjectDef idref="g119"/>
+            <EndProperty idref="g99"/>
+            <Property idref="g99"/>
+            <ToObjectDef idref="g138"/>
           </PropertyPath>
         </UIProperty>
       </UIProperties>
     </ObjectDef>
     <ObjectDef id="g131">
-      <NoReverseCreateMethod>false</NoReverseCreateMethod>
-      <ParentFromPos>0</ParentFromPos>
-      <ParentToPos>0</ParentToPos>
-      <ParentCenter>0</ParentCenter>
-      <ParentWidth>0</ParentWidth>
-      <PreSelect>false</PreSelect>
-      <CreateOne>false</CreateOne>
-      <LookupUseTableCombo>false</LookupUseTableCombo>
-      <LookupShowGotoButton>false</LookupShowGotoButton>
-      <ClientRoot>false</ClientRoot>
-      <Hide>false</Hide>
-      <FileStorage>false</FileStorage>
-      <DefaultAsOwned>false</DefaultAsOwned>
-      <HideLinks>false</HideLinks>
-      <Created>2023-01-13</Created>
-      <DisplayTemplateLength>0</DisplayTemplateLength>
-      <DisplayTemplateColLength>0</DisplayTemplateColLength>
-      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
-      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
-      <AutoCompleteLength>0</AutoCompleteLength>
-      <AutoCompleteColLength>0</AutoCompleteColLength>
-      <AutoCompleteMinLength>0</AutoCompleteMinLength>
-      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
-      <PluralDisplayName>Pojo Links</PluralDisplayName>
-      <AddToCache>true</AddToCache>
-      <EnabledCompareValue>false</EnabledCompareValue>
-      <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoLink</PkeyDataSourceName>
       <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
       <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
-      <Total>0</Total>
-      <Color>#DCFFDC</Color>
-      <Name>PojoLink</Name>
-      <Bounds>254,186,102,72</Bounds>
-      <Flag>true</Flag>
-      <Lookup>false</Lookup>
-      <DataSourceName>PojoLink</DataSourceName>
-      <PluralName>PojoLinks</PluralName>
-      <Processed>false</Processed>
-      <LowerName>pojoLink</LowerName>
-      <PluralLowerName>pojoLinks</PluralLowerName>
-      <DisplayName>Pojo Link</DisplayName>
-      <ShortName>pjl</ShortName>
-      <LocalOnly>false</LocalOnly>
-      <InitializeNewObjects>true</InitializeNewObjects>
-      <UseDataSource>false</UseDataSource>
-      <model idref="g57"/>
-      <properties total="1">
-        <Property id="g132">
-          <AutoAssign>false</AutoAssign>
-          <Console>false</Console>
-          <Key>false</Key>
-          <Required>false</Required>
-          <Deprecated>false</Deprecated>
-          <UniqueId>false</UniqueId>
-          <CounterId>false</CounterId>
-          <Unicode>false</Unicode>
-          <FullTextIndex>false</FullTextIndex>
-          <ImportMatch>false</ImportMatch>
-          <Submit>false</Submit>
-          <Titled>false</Titled>
-          <JavaIdentifier>false</JavaIdentifier>
-          <Encrypted>false</Encrypted>
-          <UsesSHA>false</UsesSHA>
-          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
-          <UseTimeZone>false</UseTimeZone>
-          <SensitiveData>false</SensitiveData>
-          <NoPojo>false</NoPojo>
-          <UseWrapper>false</UseWrapper>
-          <Lower>false</Lower>
-          <Upper>false</Upper>
-          <Index>false</Index>
-          <ReadOnly>false</ReadOnly>
-          <Timestamp>false</Timestamp>
-          <DataSourceName>Name</DataSourceName>
-          <Processed>false</Processed>
-          <IgnoreTimeZone>false</IgnoreTimeZone>
-          <SHAHash>false</SHAHash>
-          <CaseSensitive>false</CaseSensitive>
-          <AutoSequence>false</AutoSequence>
-          <MaxLength>50</MaxLength>
-          <DisplayLength>15</DisplayLength>
-          <MaxDisplayLength>50</MaxDisplayLength>
-          <MinLength>0</MinLength>
-          <DecimalPlaces>0</DecimalPlaces>
-          <GridColumnLength>15</GridColumnLength>
-          <GridColumnName>Name</GridColumnName>
-          <Url>false</Url>
-          <Email>false</Email>
-          <Phone>false</Phone>
-          <ZipCode>false</ZipCode>
-          <ImageName>false</ImageName>
-          <IconName>false</IconName>
-          <Xml>false</Xml>
-          <Json>false</Json>
-          <Pdf>false</Pdf>
-          <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
-          <File>false</File>
-          <Directory>false</Directory>
-          <Unique>false</Unique>
-          <Hide>false</Hide>
-          <Created>2023-01-13</Created>
-          <EnabledCompareValue>false</EnabledCompareValue>
-          <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
-          <Transient>false</Transient>
-          <HtmlTemplate>false</HtmlTemplate>
-          <HtmlOutput>false</HtmlOutput>
-          <Inactive>false</Inactive>
-          <Report>false</Report>
-          <Name>name</Name>
-          <Error>false</Error>
-          <Flag>false</Flag>
-          <UpperName>Name</UpperName>
-          <DisplayName>Name</DisplayName>
-          <objectDef idref="g131"/>
-        </Property>
-      </properties>
-      <LinkProperties total="3">
-        <LinkProperty idref="g86"/>
-        <LinkProperty idref="g99"/>
-        <LinkProperty idref="g90"/>
-      </LinkProperties>
-      <DisplayPropertyPath id="g141">
-        <Lookup>false</Lookup>
-        <PropertyPath>id</PropertyPath>
-        <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g131"/>
-        <EndProperty id="g142" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
-          <Console>false</Console>
-          <Key>true</Key>
-          <Required>false</Required>
-          <Deprecated>false</Deprecated>
-          <UniqueId>true</UniqueId>
-          <CounterId>false</CounterId>
-          <Unicode>false</Unicode>
-          <FullTextIndex>false</FullTextIndex>
-          <ImportMatch>false</ImportMatch>
-          <Submit>false</Submit>
-          <Titled>false</Titled>
-          <JavaIdentifier>false</JavaIdentifier>
-          <Encrypted>false</Encrypted>
-          <UsesSHA>false</UsesSHA>
-          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
-          <UseTimeZone>false</UseTimeZone>
-          <SensitiveData>false</SensitiveData>
-          <NoPojo>false</NoPojo>
-          <UseWrapper>false</UseWrapper>
-          <Lower>false</Lower>
-          <Upper>false</Upper>
-          <Index>false</Index>
-          <ReadOnly>false</ReadOnly>
-          <Timestamp>false</Timestamp>
-          <DataSourceName>Id</DataSourceName>
-          <Processed>false</Processed>
-          <IgnoreTimeZone>false</IgnoreTimeZone>
-          <SHAHash>false</SHAHash>
-          <CaseSensitive>false</CaseSensitive>
-          <AutoSequence>false</AutoSequence>
-          <MaxLength>20</MaxLength>
-          <DisplayLength>6</DisplayLength>
-          <MaxDisplayLength>8</MaxDisplayLength>
-          <MinLength>0</MinLength>
-          <DecimalPlaces>0</DecimalPlaces>
-          <GridColumnLength>6</GridColumnLength>
-          <GridColumnName>Id</GridColumnName>
-          <Url>false</Url>
-          <Email>false</Email>
-          <Phone>false</Phone>
-          <ZipCode>false</ZipCode>
-          <ImageName>false</ImageName>
-          <IconName>false</IconName>
-          <Xml>false</Xml>
-          <Json>false</Json>
-          <Pdf>false</Pdf>
-          <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
-          <File>false</File>
-          <Directory>false</Directory>
-          <Unique>true</Unique>
-          <Hide>true</Hide>
-          <Created>2023-01-13</Created>
-          <EnabledCompareValue>false</EnabledCompareValue>
-          <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
-          <Transient>false</Transient>
-          <HtmlTemplate>false</HtmlTemplate>
-          <HtmlOutput>false</HtmlOutput>
-          <Inactive>false</Inactive>
-          <Report>false</Report>
-          <Name>id</Name>
-          <Error>false</Error>
-          <Flag>false</Flag>
-          <UpperName>Id</UpperName>
-          <DisplayName>Id</DisplayName>
-        </EndProperty>
-        <Property idref="g142"/>
-        <ToObjectDef idref="g131"/>
-      </DisplayPropertyPath>
-      <UIProperties total="4">
-        <UIProperty id="g133">
-          <Seq>0</Seq>
-          <Use>true</Use>
-          <UseReport>true</UseReport>
-          <UseTree>false</UseTree>
-          <ObjectDef idref="g131"/>
-          <PropertyPath id="g134">
-            <Lookup>false</Lookup>
-            <PropertyPath>pojo</PropertyPath>
-            <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g131"/>
-            <EndProperty idref="g86"/>
-            <Property idref="g86"/>
-            <ToObjectDef idref="g100"/>
-          </PropertyPath>
-        </UIProperty>
-        <UIProperty id="g135">
-          <Seq>1</Seq>
-          <Use>true</Use>
-          <UseReport>true</UseReport>
-          <UseTree>false</UseTree>
-          <ObjectDef idref="g131"/>
-          <PropertyPath id="g136">
-            <Lookup>false</Lookup>
-            <PropertyPath>pojoLinkOne</PropertyPath>
-            <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g131"/>
-            <EndProperty idref="g90"/>
-            <Property idref="g90"/>
-            <ToObjectDef idref="g155"/>
-          </PropertyPath>
-        </UIProperty>
-        <UIProperty id="g137">
-          <Seq>2</Seq>
-          <Use>true</Use>
-          <UseReport>true</UseReport>
-          <UseTree>false</UseTree>
-          <ObjectDef idref="g131"/>
-          <PropertyPath id="g138">
-            <Lookup>false</Lookup>
-            <PropertyPath>name</PropertyPath>
-            <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g131"/>
-            <EndProperty idref="g132"/>
-            <Property idref="g132"/>
-            <ToObjectDef idref="g131"/>
-          </PropertyPath>
-        </UIProperty>
-        <UIProperty id="g139">
-          <Seq>3</Seq>
-          <Use>true</Use>
-          <UseReport>true</UseReport>
-          <UseTree>false</UseTree>
-          <ObjectDef idref="g131"/>
-          <PropertyPath id="g140">
-            <Lookup>false</Lookup>
-            <PropertyPath>pojoLinkMany</PropertyPath>
-            <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g131"/>
-            <EndProperty idref="g99"/>
-            <Property idref="g99"/>
-            <ToObjectDef idref="g150"/>
-          </PropertyPath>
-        </UIProperty>
-      </UIProperties>
-    </ObjectDef>
-    <ObjectDef id="g143">
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -1052,17 +782,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoLinkFkey</PkeyDataSourceName>
       <PluralDisplayName>Pojo Link Fkeys</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoLinkFkey</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#FFFF80</Color>
       <Name>PojoLinkFkey</Name>
+      <Color>#FFFF80</Color>
       <Bounds>649,162,151,40</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -1081,15 +809,15 @@
         <LinkProperty idref="g62"/>
         <LinkProperty idref="g74"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g148">
+      <DisplayPropertyPath id="g136">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g143"/>
-        <EndProperty id="g149" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <FromObjectDef idref="g131"/>
+        <EndProperty id="g137" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -1109,11 +837,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1135,18 +863,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1157,37 +885,37 @@
           <UpperName>Id</UpperName>
           <DisplayName>Id</DisplayName>
         </EndProperty>
-        <Property idref="g149"/>
-        <ToObjectDef idref="g143"/>
+        <Property idref="g137"/>
+        <ToObjectDef idref="g131"/>
       </DisplayPropertyPath>
       <UIProperties total="2">
-        <UIProperty id="g144">
+        <UIProperty id="g132">
           <Seq>0</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g143"/>
-          <PropertyPath id="g145">
+          <ObjectDef idref="g131"/>
+          <PropertyPath id="g133">
             <Lookup>false</Lookup>
             <PropertyPath>pojoLinkOne</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g143"/>
+            <FromObjectDef idref="g131"/>
             <EndProperty idref="g62"/>
             <Property idref="g62"/>
-            <ToObjectDef idref="g155"/>
+            <ToObjectDef idref="g143"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g146">
+        <UIProperty id="g134">
           <Seq>1</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g143"/>
-          <PropertyPath id="g147">
+          <ObjectDef idref="g131"/>
+          <PropertyPath id="g135">
             <Lookup>false</Lookup>
             <PropertyPath>pojoProperty</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g143"/>
+            <FromObjectDef idref="g131"/>
             <EndProperty idref="g74"/>
             <Property idref="g74"/>
             <ToObjectDef idref="g177"/>
@@ -1195,7 +923,9 @@
         </UIProperty>
       </UIProperties>
     </ObjectDef>
-    <ObjectDef id="g150">
+    <ObjectDef id="g138">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -1219,17 +949,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoLinkMany</PkeyDataSourceName>
       <PluralDisplayName>Pojo Link Manies</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoLinkMany</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#00FF00</Color>
       <Name>PojoLinkMany</Name>
+      <Color>#00FF00</Color>
       <Bounds>422,327,125,78</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -1247,15 +975,15 @@
       <LinkProperties total="1">
         <LinkProperty idref="g98"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g153">
+      <DisplayPropertyPath id="g141">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g150"/>
-        <EndProperty id="g154" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <FromObjectDef idref="g138"/>
+        <EndProperty id="g142" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -1275,11 +1003,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1301,18 +1029,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-14</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1323,29 +1051,31 @@
           <UpperName>Id</UpperName>
           <DisplayName>Id</DisplayName>
         </EndProperty>
-        <Property idref="g154"/>
-        <ToObjectDef idref="g150"/>
+        <Property idref="g142"/>
+        <ToObjectDef idref="g138"/>
       </DisplayPropertyPath>
       <UIProperties total="1">
-        <UIProperty id="g151">
+        <UIProperty id="g139">
           <Seq>0</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g150"/>
-          <PropertyPath id="g152">
+          <ObjectDef idref="g138"/>
+          <PropertyPath id="g140">
             <Lookup>false</Lookup>
             <PropertyPath>pojoLink</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g150"/>
+            <FromObjectDef idref="g138"/>
             <EndProperty idref="g98"/>
             <Property idref="g98"/>
-            <ToObjectDef idref="g131"/>
+            <ToObjectDef idref="g119"/>
           </PropertyPath>
         </UIProperty>
       </UIProperties>
     </ObjectDef>
-    <ObjectDef id="g155">
+    <ObjectDef id="g143">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -1369,17 +1099,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoLinkOne</PkeyDataSourceName>
       <PluralDisplayName>Pojo Link Ones</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoLinkOne</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#00FF00</Color>
       <Name>PojoLinkOne</Name>
+      <Color>#00FF00</Color>
       <Bounds>422,214,125,78</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -1396,20 +1124,20 @@
       <model idref="g57"/>
       <LinkProperties total="5">
         <LinkProperty idref="g66"/>
-        <LinkProperty idref="g80"/>
         <LinkProperty idref="g89"/>
         <LinkProperty idref="g63"/>
+        <LinkProperty idref="g80"/>
         <LinkProperty idref="g69"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g166">
+      <DisplayPropertyPath id="g154">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g155"/>
-        <EndProperty id="g167" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <FromObjectDef idref="g143"/>
+        <EndProperty id="g155" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -1429,11 +1157,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1455,18 +1183,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1477,93 +1205,95 @@
           <UpperName>Id</UpperName>
           <DisplayName>Id</DisplayName>
         </EndProperty>
-        <Property idref="g167"/>
-        <ToObjectDef idref="g155"/>
+        <Property idref="g155"/>
+        <ToObjectDef idref="g143"/>
       </DisplayPropertyPath>
       <UIProperties total="5">
-        <UIProperty id="g156">
+        <UIProperty id="g144">
           <Seq>0</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g155"/>
-          <PropertyPath id="g157">
+          <ObjectDef idref="g143"/>
+          <PropertyPath id="g145">
             <Lookup>false</Lookup>
             <PropertyPath>pojoLinkFkeys</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g155"/>
+            <FromObjectDef idref="g143"/>
             <EndProperty idref="g63"/>
             <Property idref="g63"/>
-            <ToObjectDef idref="g143"/>
+            <ToObjectDef idref="g131"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g158">
+        <UIProperty id="g146">
           <Seq>1</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g155"/>
-          <PropertyPath id="g159">
+          <ObjectDef idref="g143"/>
+          <PropertyPath id="g147">
             <Lookup>false</Lookup>
             <PropertyPath>pojoImportMatches</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g155"/>
+            <FromObjectDef idref="g143"/>
             <EndProperty idref="g66"/>
             <Property idref="g66"/>
             <ToObjectDef idref="g110"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g160">
+        <UIProperty id="g148">
           <Seq>2</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g155"/>
-          <PropertyPath id="g161">
+          <ObjectDef idref="g143"/>
+          <PropertyPath id="g149">
             <Lookup>false</Lookup>
             <PropertyPath>pojoLinkUnique</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g155"/>
+            <FromObjectDef idref="g143"/>
             <EndProperty idref="g69"/>
             <Property idref="g69"/>
             <ToObjectDef idref="g168"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g162">
+        <UIProperty id="g150">
           <Seq>3</Seq>
           <Use>false</Use>
           <UseReport>false</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g155"/>
-          <PropertyPath id="g163">
+          <ObjectDef idref="g143"/>
+          <PropertyPath id="g151">
             <Lookup>false</Lookup>
-            <PropertyPath>pojoImportMatchLink</PropertyPath>
+            <PropertyPath>pojoLinkOneReference</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g155"/>
+            <FromObjectDef idref="g143"/>
             <EndProperty idref="g80"/>
             <Property idref="g80"/>
-            <ToObjectDef idref="g119"/>
+            <ToObjectDef idref="g156"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g164">
+        <UIProperty id="g152">
           <Seq>4</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g155"/>
-          <PropertyPath id="g165">
+          <ObjectDef idref="g143"/>
+          <PropertyPath id="g153">
             <Lookup>false</Lookup>
             <PropertyPath>pojoLink</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g155"/>
+            <FromObjectDef idref="g143"/>
             <EndProperty idref="g89"/>
             <Property idref="g89"/>
-            <ToObjectDef idref="g131"/>
+            <ToObjectDef idref="g119"/>
           </PropertyPath>
         </UIProperty>
       </UIProperties>
     </ObjectDef>
-    <ObjectDef id="g168">
+    <ObjectDef id="g156">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -1587,45 +1317,117 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
-      <PluralDisplayName>Pojo Link Uniques</PluralDisplayName>
+      <PkeyDataSourceName>PkPojoLinkOneReference</PkeyDataSourceName>
+      <PluralDisplayName>Pojo Link One References</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoLinkUnique</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#FFFF80</Color>
-      <Name>PojoLinkUnique</Name>
-      <Bounds>649,355,151,41</Bounds>
+      <Name>PojoLinkOneReference</Name>
+      <Color>#FFFFDC</Color>
+      <Bounds>946,417,200,63</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
-      <DataSourceName>PojoLinkUnique</DataSourceName>
-      <PluralName>PojoLinkUniques</PluralName>
+      <DataSourceName>PojoLinkOneReference</DataSourceName>
+      <PluralName>PojoLinkOneReferences</PluralName>
       <Processed>false</Processed>
-      <LowerName>pojoLinkUnique</LowerName>
-      <PluralLowerName>pojoLinkUniques</PluralLowerName>
-      <DisplayName>Pojo Link Unique</DisplayName>
-      <ShortName>plu</ShortName>
+      <LowerName>pojoLinkOneReference</LowerName>
+      <PluralLowerName>pojoLinkOneReferences</PluralLowerName>
+      <DisplayName>Pojo Link One Reference</DisplayName>
+      <ShortName>plo</ShortName>
       <LocalOnly>false</LocalOnly>
       <InitializeNewObjects>true</InitializeNewObjects>
       <UseDataSource>false</UseDataSource>
       <model idref="g57"/>
+      <properties total="1">
+        <Property id="g157">
+          <Console>false</Console>
+          <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
+          <Required>false</Required>
+          <Deprecated>false</Deprecated>
+          <UniqueId>false</UniqueId>
+          <CounterId>false</CounterId>
+          <Unicode>false</Unicode>
+          <FullTextIndex>false</FullTextIndex>
+          <ImportMatch>false</ImportMatch>
+          <Submit>false</Submit>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <Encrypted>false</Encrypted>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>false</DontTrackPrimitiveNull>
+          <UseTimeZone>false</UseTimeZone>
+          <SensitiveData>false</SensitiveData>
+          <NoPojo>false</NoPojo>
+          <UseWrapper>false</UseWrapper>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <DataSourceName>Name</DataSourceName>
+          <Processed>false</Processed>
+          <Index>false</Index>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <SHAHash>false</SHAHash>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <MaxLength>50</MaxLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxDisplayLength>50</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>15</GridColumnLength>
+          <GridColumnName>Name</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Json>false</Json>
+          <Pdf>false</Pdf>
+          <NoLineWrap>false</NoLineWrap>
+          <File>false</File>
+          <Type>String</Type>
+          <Directory>false</Directory>
+          <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+          <Hide>false</Hide>
+          <Created>2023-01-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <Html>false</Html>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Name>name</Name>
+          <Error>false</Error>
+          <Flag>false</Flag>
+          <UpperName>Name</UpperName>
+          <DisplayName>Name</DisplayName>
+          <objectDef idref="g156"/>
+        </Property>
+      </properties>
       <LinkProperties total="3">
-        <LinkProperty idref="g96"/>
-        <LinkProperty idref="g68"/>
-        <LinkProperty idref="g93"/>
+        <LinkProperty idref="g77"/>
+        <LinkProperty idref="g81"/>
+        <LinkProperty idref="g95"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g175">
+      <DisplayPropertyPath id="g166">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g168"/>
-        <EndProperty id="g176" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <FromObjectDef idref="g156"/>
+        <EndProperty id="g167" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -1645,11 +1447,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1671,18 +1473,218 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
+          <Transient>false</Transient>
+          <Html>false</Html>
+          <HtmlTemplate>false</HtmlTemplate>
+          <HtmlOutput>false</HtmlOutput>
+          <Inactive>false</Inactive>
+          <Report>false</Report>
+          <Name>id</Name>
+          <Error>false</Error>
+          <Flag>false</Flag>
+          <UpperName>Id</UpperName>
+          <DisplayName>Id</DisplayName>
+        </EndProperty>
+        <Property idref="g167"/>
+        <ToObjectDef idref="g156"/>
+      </DisplayPropertyPath>
+      <UIProperties total="4">
+        <UIProperty id="g158">
+          <Seq>0</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g156"/>
+          <PropertyPath id="g159">
+            <Lookup>false</Lookup>
+            <PropertyPath>pojoImportMatch</PropertyPath>
+            <LookupProperty>false</LookupProperty>
+            <FromObjectDef idref="g156"/>
+            <EndProperty idref="g77"/>
+            <Property idref="g77"/>
+            <ToObjectDef idref="g110"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g160">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g156"/>
+          <PropertyPath id="g161">
+            <Lookup>false</Lookup>
+            <PropertyPath>pojoLinkOne</PropertyPath>
+            <LookupProperty>false</LookupProperty>
+            <FromObjectDef idref="g156"/>
+            <EndProperty idref="g81"/>
+            <Property idref="g81"/>
+            <ToObjectDef idref="g143"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g162">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g156"/>
+          <PropertyPath id="g163">
+            <Lookup>false</Lookup>
+            <PropertyPath>pojoLinkUnique</PropertyPath>
+            <LookupProperty>false</LookupProperty>
+            <FromObjectDef idref="g156"/>
+            <EndProperty idref="g95"/>
+            <Property idref="g95"/>
+            <ToObjectDef idref="g168"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g164">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g156"/>
+          <PropertyPath id="g165">
+            <Lookup>false</Lookup>
+            <PropertyPath>name</PropertyPath>
+            <LookupProperty>false</LookupProperty>
+            <FromObjectDef idref="g156"/>
+            <EndProperty idref="g157"/>
+            <Property idref="g157"/>
+            <ToObjectDef idref="g156"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g168">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
+      <NoReverseCreateMethod>false</NoReverseCreateMethod>
+      <ParentFromPos>0</ParentFromPos>
+      <ParentToPos>0</ParentToPos>
+      <ParentCenter>0</ParentCenter>
+      <ParentWidth>0</ParentWidth>
+      <PreSelect>false</PreSelect>
+      <CreateOne>false</CreateOne>
+      <LookupUseTableCombo>false</LookupUseTableCombo>
+      <LookupShowGotoButton>false</LookupShowGotoButton>
+      <ClientRoot>false</ClientRoot>
+      <Hide>false</Hide>
+      <FileStorage>false</FileStorage>
+      <DefaultAsOwned>false</DefaultAsOwned>
+      <HideLinks>false</HideLinks>
+      <Created>2023-01-13</Created>
+      <DisplayTemplateLength>0</DisplayTemplateLength>
+      <DisplayTemplateColLength>0</DisplayTemplateColLength>
+      <DisplayTemplateMinLength>0</DisplayTemplateMinLength>
+      <DisplayTemplateMaxLength>0</DisplayTemplateMaxLength>
+      <AutoCompleteLength>0</AutoCompleteLength>
+      <AutoCompleteColLength>0</AutoCompleteColLength>
+      <AutoCompleteMinLength>0</AutoCompleteMinLength>
+      <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoLinkUnique</PkeyDataSourceName>
+      <PluralDisplayName>Pojo Link Uniques</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <EnabledCompareValue>false</EnabledCompareValue>
+      <VisibleCompareValue>false</VisibleCompareValue>
+      <CreatePojo>true</CreatePojo>
+      <Total>0</Total>
+      <Name>PojoLinkUnique</Name>
+      <Color>#FFFF80</Color>
+      <Bounds>649,355,151,41</Bounds>
+      <Flag>true</Flag>
+      <Lookup>false</Lookup>
+      <DataSourceName>PojoLinkUnique</DataSourceName>
+      <PluralName>PojoLinkUniques</PluralName>
+      <Processed>false</Processed>
+      <LowerName>pojoLinkUnique</LowerName>
+      <PluralLowerName>pojoLinkUniques</PluralLowerName>
+      <DisplayName>Pojo Link Unique</DisplayName>
+      <ShortName>plu</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>false</UseDataSource>
+      <model idref="g57"/>
+      <LinkProperties total="3">
+        <LinkProperty idref="g68"/>
+        <LinkProperty idref="g96"/>
+        <LinkProperty idref="g93"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g175">
+        <Lookup>false</Lookup>
+        <PropertyPath>id</PropertyPath>
+        <LookupProperty>false</LookupProperty>
+        <FromObjectDef idref="g168"/>
+        <EndProperty id="g176" class="com.viaoa.builder.model.Property">
+          <Console>false</Console>
+          <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
+          <Required>false</Required>
+          <Deprecated>false</Deprecated>
+          <UniqueId>true</UniqueId>
+          <CounterId>false</CounterId>
+          <Unicode>false</Unicode>
+          <FullTextIndex>false</FullTextIndex>
+          <ImportMatch>false</ImportMatch>
+          <Submit>false</Submit>
+          <Titled>false</Titled>
+          <JavaIdentifier>false</JavaIdentifier>
+          <Encrypted>false</Encrypted>
+          <UsesSHA>false</UsesSHA>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <UseTimeZone>false</UseTimeZone>
+          <SensitiveData>false</SensitiveData>
+          <NoPojo>false</NoPojo>
+          <UseWrapper>false</UseWrapper>
+          <Lower>false</Lower>
+          <Upper>false</Upper>
+          <ReadOnly>false</ReadOnly>
+          <Timestamp>false</Timestamp>
+          <DataSourceName>Id</DataSourceName>
+          <Processed>false</Processed>
+          <Index>false</Index>
+          <IgnoreTimeZone>false</IgnoreTimeZone>
+          <SHAHash>false</SHAHash>
+          <CaseSensitive>false</CaseSensitive>
+          <AutoSequence>false</AutoSequence>
+          <MaxLength>20</MaxLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <MinLength>0</MinLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <GridColumnLength>6</GridColumnLength>
+          <GridColumnName>Id</GridColumnName>
+          <Url>false</Url>
+          <Email>false</Email>
+          <Phone>false</Phone>
+          <ZipCode>false</ZipCode>
+          <ImageName>false</ImageName>
+          <IconName>false</IconName>
+          <Xml>false</Xml>
+          <Json>false</Json>
+          <Pdf>false</Pdf>
+          <NoLineWrap>false</NoLineWrap>
+          <File>false</File>
+          <Type>int</Type>
+          <Directory>false</Directory>
+          <Unique>true</Unique>
           <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
           <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
+          <Hide>true</Hide>
+          <Created>2023-01-13</Created>
+          <EnabledCompareValue>false</EnabledCompareValue>
+          <VisibleCompareValue>false</VisibleCompareValue>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1710,7 +1712,7 @@
             <FromObjectDef idref="g168"/>
             <EndProperty idref="g68"/>
             <Property idref="g68"/>
-            <ToObjectDef idref="g155"/>
+            <ToObjectDef idref="g143"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g171">
@@ -1737,17 +1739,19 @@
           <ObjectDef idref="g168"/>
           <PropertyPath id="g174">
             <Lookup>false</Lookup>
-            <PropertyPath>pojoImportMatchLink</PropertyPath>
+            <PropertyPath>pojoLinkOneReference</PropertyPath>
             <LookupProperty>false</LookupProperty>
             <FromObjectDef idref="g168"/>
             <EndProperty idref="g96"/>
             <Property idref="g96"/>
-            <ToObjectDef idref="g119"/>
+            <ToObjectDef idref="g156"/>
           </PropertyPath>
         </UIProperty>
       </UIProperties>
     </ObjectDef>
     <ObjectDef id="g177">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>true</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -1771,17 +1775,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoProperty</PkeyDataSourceName>
       <PluralDisplayName>Pojo Properties</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoProperty</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#00FF00</Color>
       <Name>PojoProperty</Name>
+      <Color>#00FF00</Color>
       <Bounds>1033,63,131,95</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -1798,9 +1800,9 @@
       <model idref="g57"/>
       <properties total="4">
         <Property id="g178">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -1820,11 +1822,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Name</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1846,18 +1848,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1870,9 +1872,9 @@
           <objectDef idref="g177"/>
         </Property>
         <Property id="g179">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -1892,11 +1894,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>UpperName</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1918,18 +1920,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -1942,9 +1944,9 @@
           <objectDef idref="g177"/>
         </Property>
         <Property id="g180">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -1964,11 +1966,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>PropertyPath</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -1990,18 +1992,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2014,9 +2016,9 @@
           <objectDef idref="g177"/>
         </Property>
         <Property id="g181">
-          <AutoAssign>false</AutoAssign>
           <Console>false</Console>
           <Key>false</Key>
+          <AutoAssign>false</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>false</UniqueId>
@@ -2036,11 +2038,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>JavaType</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -2062,18 +2064,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>String</Type>
           <File>false</File>
+          <Type>String</Type>
           <Directory>false</Directory>
           <Unique>false</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-15</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2092,15 +2094,15 @@
         <LinkProperty idref="g92"/>
         <LinkProperty idref="g71"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g198">
+      <DisplayPropertyPath id="g199">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
         <FromObjectDef idref="g177"/>
-        <EndProperty id="g199" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <EndProperty id="g200" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -2120,11 +2122,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -2146,18 +2148,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2168,7 +2170,7 @@
           <UpperName>Id</UpperName>
           <DisplayName>Id</DisplayName>
         </EndProperty>
-        <Property idref="g199"/>
+        <Property idref="g200"/>
         <ToObjectDef idref="g177"/>
       </DisplayPropertyPath>
       <UIProperties total="8">
@@ -2185,7 +2187,7 @@
             <FromObjectDef idref="g177"/>
             <EndProperty idref="g71"/>
             <Property idref="g71"/>
-            <ToObjectDef idref="g200"/>
+            <ToObjectDef idref="g201"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g184">
@@ -2201,7 +2203,7 @@
             <FromObjectDef idref="g177"/>
             <EndProperty idref="g75"/>
             <Property idref="g75"/>
-            <ToObjectDef idref="g143"/>
+            <ToObjectDef idref="g131"/>
           </PropertyPath>
         </UIProperty>
         <UIProperty id="g186">
@@ -2236,13 +2238,13 @@
             <ToObjectDef idref="g168"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g190">
+        <UIProperty id="g191">
           <Seq>4</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
           <ObjectDef idref="g177"/>
-          <PropertyPath id="g191">
+          <PropertyPath id="g192">
             <Lookup>false</Lookup>
             <PropertyPath>propertyPath</PropertyPath>
             <LookupProperty>false</LookupProperty>
@@ -2252,13 +2254,13 @@
             <ToObjectDef idref="g177"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g192">
+        <UIProperty id="g193">
           <Seq>5</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
           <ObjectDef idref="g177"/>
-          <PropertyPath id="g193">
+          <PropertyPath id="g194">
             <Lookup>false</Lookup>
             <PropertyPath>name</PropertyPath>
             <LookupProperty>false</LookupProperty>
@@ -2268,13 +2270,13 @@
             <ToObjectDef idref="g177"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g194">
+        <UIProperty id="g195">
           <Seq>6</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
           <ObjectDef idref="g177"/>
-          <PropertyPath id="g195">
+          <PropertyPath id="g196">
             <Lookup>false</Lookup>
             <PropertyPath>upperName</PropertyPath>
             <LookupProperty>false</LookupProperty>
@@ -2284,13 +2286,13 @@
             <ToObjectDef idref="g177"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g196">
+        <UIProperty id="g197">
           <Seq>7</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
           <ObjectDef idref="g177"/>
-          <PropertyPath id="g197">
+          <PropertyPath id="g198">
             <Lookup>false</Lookup>
             <PropertyPath>javaType</PropertyPath>
             <LookupProperty>false</LookupProperty>
@@ -2302,7 +2304,9 @@
         </UIProperty>
       </UIProperties>
     </ObjectDef>
-    <ObjectDef id="g200">
+    <ObjectDef id="g201">
+      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
       <NoReverseCreateMethod>false</NoReverseCreateMethod>
       <ParentFromPos>0</ParentFromPos>
       <ParentToPos>0</ParentToPos>
@@ -2326,17 +2330,15 @@
       <AutoCompleteColLength>0</AutoCompleteColLength>
       <AutoCompleteMinLength>0</AutoCompleteMinLength>
       <AutoCompleteMaxLength>0</AutoCompleteMaxLength>
+      <PkeyDataSourceName>PkPojoRegularProperty</PkeyDataSourceName>
       <PluralDisplayName>Pojo Regular Properties</PluralDisplayName>
       <AddToCache>true</AddToCache>
       <EnabledCompareValue>false</EnabledCompareValue>
       <VisibleCompareValue>false</VisibleCompareValue>
-      <PkeyDataSourceName>PkPojoRegularProperty</PkeyDataSourceName>
-      <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-      <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-      <CreatePojo>false</CreatePojo>
+      <CreatePojo>true</CreatePojo>
       <Total>0</Total>
-      <Color>#DCFFDC</Color>
       <Name>PojoRegularProperty</Name>
+      <Color>#DCFFDC</Color>
       <Bounds>419,53,179,60</Bounds>
       <Flag>true</Flag>
       <Lookup>false</Lookup>
@@ -2355,15 +2357,15 @@
         <LinkProperty idref="g59"/>
         <LinkProperty idref="g72"/>
       </LinkProperties>
-      <DisplayPropertyPath id="g205">
+      <DisplayPropertyPath id="g206">
         <Lookup>false</Lookup>
         <PropertyPath>id</PropertyPath>
         <LookupProperty>false</LookupProperty>
-        <FromObjectDef idref="g200"/>
-        <EndProperty id="g206" class="com.viaoa.builder.model.Property">
-          <AutoAssign>true</AutoAssign>
+        <FromObjectDef idref="g201"/>
+        <EndProperty id="g207" class="com.viaoa.builder.model.Property">
           <Console>false</Console>
           <Key>true</Key>
+          <AutoAssign>true</AutoAssign>
           <Required>false</Required>
           <Deprecated>false</Deprecated>
           <UniqueId>true</UniqueId>
@@ -2383,11 +2385,11 @@
           <UseWrapper>false</UseWrapper>
           <Lower>false</Lower>
           <Upper>false</Upper>
-          <Index>false</Index>
           <ReadOnly>false</ReadOnly>
           <Timestamp>false</Timestamp>
           <DataSourceName>Id</DataSourceName>
           <Processed>false</Processed>
+          <Index>false</Index>
           <IgnoreTimeZone>false</IgnoreTimeZone>
           <SHAHash>false</SHAHash>
           <CaseSensitive>false</CaseSensitive>
@@ -2409,18 +2411,18 @@
           <Json>false</Json>
           <Pdf>false</Pdf>
           <NoLineWrap>false</NoLineWrap>
-          <Type>int</Type>
           <File>false</File>
+          <Type>int</Type>
           <Directory>false</Directory>
           <Unique>true</Unique>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>true</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2431,37 +2433,37 @@
           <UpperName>Id</UpperName>
           <DisplayName>Id</DisplayName>
         </EndProperty>
-        <Property idref="g206"/>
-        <ToObjectDef idref="g200"/>
+        <Property idref="g207"/>
+        <ToObjectDef idref="g201"/>
       </DisplayPropertyPath>
       <UIProperties total="2">
-        <UIProperty id="g201">
+        <UIProperty id="g202">
           <Seq>0</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g200"/>
-          <PropertyPath id="g202">
+          <ObjectDef idref="g201"/>
+          <PropertyPath id="g203">
             <Lookup>false</Lookup>
             <PropertyPath>pojo</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g200"/>
+            <FromObjectDef idref="g201"/>
             <EndProperty idref="g59"/>
             <Property idref="g59"/>
             <ToObjectDef idref="g100"/>
           </PropertyPath>
         </UIProperty>
-        <UIProperty id="g203">
+        <UIProperty id="g204">
           <Seq>1</Seq>
           <Use>true</Use>
           <UseReport>true</UseReport>
           <UseTree>false</UseTree>
-          <ObjectDef idref="g200"/>
-          <PropertyPath id="g204">
+          <ObjectDef idref="g201"/>
+          <PropertyPath id="g205">
             <Lookup>false</Lookup>
             <PropertyPath>pojoProperty</PropertyPath>
             <LookupProperty>false</LookupProperty>
-            <FromObjectDef idref="g200"/>
+            <FromObjectDef idref="g201"/>
             <EndProperty idref="g72"/>
             <Property idref="g72"/>
             <ToObjectDef idref="g177"/>
@@ -2473,11 +2475,11 @@
   <links total="14">
     <Link id="g58">
       <Center>0</Center>
-      <Width>255</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>255</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g59">
@@ -2507,14 +2509,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2526,7 +2528,7 @@
           <DisplayName>Pojo</DisplayName>
           <Link idref="g58"/>
           <ObjectDef idref="g100"/>
-          <OwnerObjectDef idref="g200"/>
+          <OwnerObjectDef idref="g201"/>
         </LinkProperty>
         <LinkProperty id="g60">
           <CreateAdd>true</CreateAdd>
@@ -2553,14 +2555,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2571,7 +2573,7 @@
           <UpperName>PojoRegularProperties</UpperName>
           <DisplayName>Pojo Regular Properties</DisplayName>
           <Link idref="g58"/>
-          <ObjectDef idref="g200"/>
+          <ObjectDef idref="g201"/>
           <OwnerObjectDef idref="g100"/>
         </LinkProperty>
       </LinkProperties>
@@ -2580,11 +2582,11 @@
     </Link>
     <Link id="g61">
       <Center>0</Center>
-      <Width>114</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>114</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g62">
@@ -2614,14 +2616,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2632,8 +2634,8 @@
           <UpperName>PojoLinkOne</UpperName>
           <DisplayName>Pojo Link One</DisplayName>
           <Link idref="g61"/>
-          <ObjectDef idref="g155"/>
-          <OwnerObjectDef idref="g143"/>
+          <ObjectDef idref="g143"/>
+          <OwnerObjectDef idref="g131"/>
         </LinkProperty>
         <LinkProperty id="g63">
           <CreateAdd>true</CreateAdd>
@@ -2660,14 +2662,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2678,8 +2680,8 @@
           <UpperName>PojoLinkFkeys</UpperName>
           <DisplayName>Pojo Link Fkeys</DisplayName>
           <Link idref="g61"/>
-          <ObjectDef idref="g143"/>
-          <OwnerObjectDef idref="g155"/>
+          <ObjectDef idref="g131"/>
+          <OwnerObjectDef idref="g143"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g62"/>
@@ -2687,11 +2689,11 @@
     </Link>
     <Link id="g64">
       <Center>77</Center>
-      <Width>114</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>114</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g65">
@@ -2721,14 +2723,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2739,7 +2741,7 @@
           <UpperName>PojoLinkOne</UpperName>
           <DisplayName>Pojo Link One</DisplayName>
           <Link idref="g64"/>
-          <ObjectDef idref="g155"/>
+          <ObjectDef idref="g143"/>
           <OwnerObjectDef idref="g110"/>
         </LinkProperty>
         <LinkProperty id="g66">
@@ -2767,14 +2769,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2786,7 +2788,7 @@
           <DisplayName>Pojo Import Matches</DisplayName>
           <Link idref="g64"/>
           <ObjectDef idref="g110"/>
-          <OwnerObjectDef idref="g155"/>
+          <OwnerObjectDef idref="g143"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g65"/>
@@ -2794,11 +2796,11 @@
     </Link>
     <Link id="g67">
       <Center>46</Center>
-      <Width>114</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>114</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g68">
@@ -2828,14 +2830,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2846,7 +2848,7 @@
           <UpperName>PojoLinkOne</UpperName>
           <DisplayName>Pojo Link One</DisplayName>
           <Link idref="g67"/>
-          <ObjectDef idref="g155"/>
+          <ObjectDef idref="g143"/>
           <OwnerObjectDef idref="g168"/>
         </LinkProperty>
         <LinkProperty id="g69">
@@ -2874,14 +2876,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2893,7 +2895,7 @@
           <DisplayName>Pojo Link Unique</DisplayName>
           <Link idref="g67"/>
           <ObjectDef idref="g168"/>
-          <OwnerObjectDef idref="g155"/>
+          <OwnerObjectDef idref="g143"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g68"/>
@@ -2901,11 +2903,11 @@
     </Link>
     <Link id="g70">
       <Center>0</Center>
-      <Width>447</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>447</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g71">
@@ -2935,14 +2937,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -2953,7 +2955,7 @@
           <UpperName>PojoRegularProperty</UpperName>
           <DisplayName>Pojo Regular Property</DisplayName>
           <Link idref="g70"/>
-          <ObjectDef idref="g200"/>
+          <ObjectDef idref="g201"/>
           <OwnerObjectDef idref="g177"/>
         </LinkProperty>
         <LinkProperty id="g72">
@@ -2981,14 +2983,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3000,7 +3002,7 @@
           <DisplayName>Pojo Property</DisplayName>
           <Link idref="g70"/>
           <ObjectDef idref="g177"/>
-          <OwnerObjectDef idref="g200"/>
+          <OwnerObjectDef idref="g201"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g71"/>
@@ -3008,11 +3010,11 @@
     </Link>
     <Link id="g73">
       <Center>40</Center>
-      <Width>245</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>245</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g74">
@@ -3042,14 +3044,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3061,7 +3063,7 @@
           <DisplayName>Pojo Property</DisplayName>
           <Link idref="g73"/>
           <ObjectDef idref="g177"/>
-          <OwnerObjectDef idref="g143"/>
+          <OwnerObjectDef idref="g131"/>
         </LinkProperty>
         <LinkProperty id="g75">
           <CreateAdd>true</CreateAdd>
@@ -3088,14 +3090,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3106,7 +3108,7 @@
           <UpperName>PojoLinkFkey</UpperName>
           <DisplayName>Pojo Link Fkey</DisplayName>
           <Link idref="g73"/>
-          <ObjectDef idref="g143"/>
+          <ObjectDef idref="g131"/>
           <OwnerObjectDef idref="g177"/>
         </LinkProperty>
       </LinkProperties>
@@ -3115,11 +3117,11 @@
     </Link>
     <Link id="g76">
       <Center>0</Center>
-      <Width>158</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>158</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g77">
@@ -3132,8 +3134,8 @@
           <CreateNew>true</CreateNew>
           <AutoCreateNew>false</AutoCreateNew>
           <Owned>false</Owned>
-          <IndexDataSourceName>PojoImportMatchLinkPojoImportMatch</IndexDataSourceName>
-          <FkeyDataSourceName>FkPojoImportMatchLinkPojoImportMatch</FkeyDataSourceName>
+          <IndexDataSourceName>PojoLinkOneReferencePojoImportMatch</IndexDataSourceName>
+          <FkeyDataSourceName>FkPojoLinkOneReferencePojoImportMatch</FkeyDataSourceName>
           <IncludeVerifyMethod>false</IncludeVerifyMethod>
           <UsuallyOne>false</UsuallyOne>
           <MultiSelect>false</MultiSelect>
@@ -3149,14 +3151,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3168,7 +3170,7 @@
           <DisplayName>Pojo Import Match</DisplayName>
           <Link idref="g76"/>
           <ObjectDef idref="g110"/>
-          <OwnerObjectDef idref="g119"/>
+          <OwnerObjectDef idref="g156"/>
         </LinkProperty>
         <LinkProperty id="g78">
           <CreateAdd>true</CreateAdd>
@@ -3195,25 +3197,25 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
           <Report>false</Report>
-          <Name>pojoImportMatchLink</Name>
+          <Name>pojoLinkOneReference</Name>
           <Error>false</Error>
           <Flag>false</Flag>
-          <UpperName>PojoImportMatchLink</UpperName>
-          <DisplayName>Pojo Import Match Link</DisplayName>
+          <UpperName>PojoLinkOneReference</UpperName>
+          <DisplayName>Pojo Link One Reference</DisplayName>
           <Link idref="g76"/>
-          <ObjectDef idref="g119"/>
+          <ObjectDef idref="g156"/>
           <OwnerObjectDef idref="g110"/>
         </LinkProperty>
       </LinkProperties>
@@ -3222,11 +3224,11 @@
     </Link>
     <Link id="g79">
       <Center>9</Center>
-      <Width>411</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>411</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g80">
@@ -3254,26 +3256,26 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
           <Report>false</Report>
-          <Name>pojoImportMatchLink</Name>
+          <Name>pojoLinkOneReference</Name>
           <Error>false</Error>
           <Flag>false</Flag>
-          <UpperName>PojoImportMatchLink</UpperName>
-          <DisplayName>Pojo Import Match Link</DisplayName>
+          <UpperName>PojoLinkOneReference</UpperName>
+          <DisplayName>Pojo Link One Reference</DisplayName>
           <Link idref="g79"/>
-          <ObjectDef idref="g119"/>
-          <OwnerObjectDef idref="g155"/>
+          <ObjectDef idref="g156"/>
+          <OwnerObjectDef idref="g143"/>
         </LinkProperty>
         <LinkProperty id="g81">
           <CreateAdd>true</CreateAdd>
@@ -3285,8 +3287,8 @@
           <CreateNew>true</CreateNew>
           <AutoCreateNew>false</AutoCreateNew>
           <Owned>false</Owned>
-          <IndexDataSourceName>PojoImportMatchLinkPojoLinkOne</IndexDataSourceName>
-          <FkeyDataSourceName>FkPojoImportMatchLinkPojoLinkOne</FkeyDataSourceName>
+          <IndexDataSourceName>PojoLinkOneReferencePojoLinkOne</IndexDataSourceName>
+          <FkeyDataSourceName>FkPojoLinkOneReferencePojoLinkOne</FkeyDataSourceName>
           <IncludeVerifyMethod>false</IncludeVerifyMethod>
           <UsuallyOne>false</UsuallyOne>
           <MultiSelect>false</MultiSelect>
@@ -3302,14 +3304,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3320,8 +3322,8 @@
           <UpperName>PojoLinkOne</UpperName>
           <DisplayName>Pojo Link One</DisplayName>
           <Link idref="g79"/>
-          <ObjectDef idref="g155"/>
-          <OwnerObjectDef idref="g119"/>
+          <ObjectDef idref="g143"/>
+          <OwnerObjectDef idref="g156"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g80"/>
@@ -3329,11 +3331,11 @@
     </Link>
     <Link id="g82">
       <Center>44</Center>
-      <Width>245</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>245</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g83">
@@ -3363,14 +3365,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3409,14 +3411,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3436,11 +3438,11 @@
     </Link>
     <Link id="g85">
       <Center>0</Center>
-      <Width>90</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>90</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g86">
@@ -3470,14 +3472,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3489,7 +3491,7 @@
           <DisplayName>Pojo</DisplayName>
           <Link idref="g85"/>
           <ObjectDef idref="g100"/>
-          <OwnerObjectDef idref="g131"/>
+          <OwnerObjectDef idref="g119"/>
         </LinkProperty>
         <LinkProperty id="g87">
           <CreateAdd>true</CreateAdd>
@@ -3516,14 +3518,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3534,7 +3536,7 @@
           <UpperName>PojoLinks</UpperName>
           <DisplayName>Pojo Links</DisplayName>
           <Link idref="g85"/>
-          <ObjectDef idref="g131"/>
+          <ObjectDef idref="g119"/>
           <OwnerObjectDef idref="g100"/>
         </LinkProperty>
       </LinkProperties>
@@ -3543,11 +3545,11 @@
     </Link>
     <Link id="g88">
       <Center>0</Center>
-      <Width>78</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>78</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g89">
@@ -3577,14 +3579,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3595,8 +3597,8 @@
           <UpperName>PojoLink</UpperName>
           <DisplayName>Pojo Link</DisplayName>
           <Link idref="g88"/>
-          <ObjectDef idref="g131"/>
-          <OwnerObjectDef idref="g155"/>
+          <ObjectDef idref="g119"/>
+          <OwnerObjectDef idref="g143"/>
         </LinkProperty>
         <LinkProperty id="g90">
           <CreateAdd>true</CreateAdd>
@@ -3623,14 +3625,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3641,8 +3643,8 @@
           <UpperName>PojoLinkOne</UpperName>
           <DisplayName>Pojo Link One</DisplayName>
           <Link idref="g88"/>
-          <ObjectDef idref="g155"/>
-          <OwnerObjectDef idref="g131"/>
+          <ObjectDef idref="g143"/>
+          <OwnerObjectDef idref="g119"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g89"/>
@@ -3650,11 +3652,11 @@
     </Link>
     <Link id="g91">
       <Center>0</Center>
-      <Width>245</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>245</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g92">
@@ -3684,14 +3686,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3730,14 +3732,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3757,11 +3759,11 @@
     </Link>
     <Link id="g94">
       <Center>25</Center>
-      <Width>158</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>158</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g95">
@@ -3774,8 +3776,8 @@
           <CreateNew>true</CreateNew>
           <AutoCreateNew>false</AutoCreateNew>
           <Owned>false</Owned>
-          <IndexDataSourceName>PojoImportMatchLinkPojoLinkUnique</IndexDataSourceName>
-          <FkeyDataSourceName>FkPojoImportMatchLinkPojoLinkUnique</FkeyDataSourceName>
+          <IndexDataSourceName>PojoLinkOneReferencePojoLinkUnique</IndexDataSourceName>
+          <FkeyDataSourceName>FkPojoLinkOneReferencePojoLinkUnique</FkeyDataSourceName>
           <IncludeVerifyMethod>false</IncludeVerifyMethod>
           <UsuallyOne>false</UsuallyOne>
           <MultiSelect>false</MultiSelect>
@@ -3791,14 +3793,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3810,7 +3812,7 @@
           <DisplayName>Pojo Link Unique</DisplayName>
           <Link idref="g94"/>
           <ObjectDef idref="g168"/>
-          <OwnerObjectDef idref="g119"/>
+          <OwnerObjectDef idref="g156"/>
         </LinkProperty>
         <LinkProperty id="g96">
           <CreateAdd>true</CreateAdd>
@@ -3837,25 +3839,25 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-13</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
           <Report>false</Report>
-          <Name>pojoImportMatchLink</Name>
+          <Name>pojoLinkOneReference</Name>
           <Error>false</Error>
           <Flag>false</Flag>
-          <UpperName>PojoImportMatchLink</UpperName>
-          <DisplayName>Pojo Import Match Link</DisplayName>
+          <UpperName>PojoLinkOneReference</UpperName>
+          <DisplayName>Pojo Link One Reference</DisplayName>
           <Link idref="g94"/>
-          <ObjectDef idref="g119"/>
+          <ObjectDef idref="g156"/>
           <OwnerObjectDef idref="g168"/>
         </LinkProperty>
       </LinkProperties>
@@ -3864,11 +3866,11 @@
     </Link>
     <Link id="g97">
       <Center>25</Center>
-      <Width>78</Width>
       <Type>0</Type>
       <Flag>false</Flag>
       <Recursive>false</Recursive>
       <Processed>false</Processed>
+      <Width>78</Width>
       <Model idref="g57"/>
       <LinkProperties total="2">
         <LinkProperty id="g98">
@@ -3898,14 +3900,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-14</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3916,8 +3918,8 @@
           <UpperName>PojoLink</UpperName>
           <DisplayName>Pojo Link</DisplayName>
           <Link idref="g97"/>
-          <ObjectDef idref="g131"/>
-          <OwnerObjectDef idref="g150"/>
+          <ObjectDef idref="g119"/>
+          <OwnerObjectDef idref="g138"/>
         </LinkProperty>
         <LinkProperty id="g99">
           <CreateAdd>true</CreateAdd>
@@ -3944,14 +3946,14 @@
           <Recursive>false</Recursive>
           <CascadeSave>false</CascadeSave>
           <AllowDelete>true</AllowDelete>
+          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
+          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
           <Hide>false</Hide>
           <Created>2023-01-14</Created>
           <EnabledCompareValue>false</EnabledCompareValue>
           <VisibleCompareValue>false</VisibleCompareValue>
-          <ContextEnabledCompareValue>false</ContextEnabledCompareValue>
-          <ContextVisibleCompareValue>false</ContextVisibleCompareValue>
-          <Html>false</Html>
           <Transient>false</Transient>
+          <Html>false</Html>
           <HtmlTemplate>false</HtmlTemplate>
           <HtmlOutput>false</HtmlOutput>
           <Inactive>false</Inactive>
@@ -3962,8 +3964,8 @@
           <UpperName>PojoLinkMany</UpperName>
           <DisplayName>Pojo Link Many</DisplayName>
           <Link idref="g97"/>
-          <ObjectDef idref="g150"/>
-          <OwnerObjectDef idref="g131"/>
+          <ObjectDef idref="g138"/>
+          <OwnerObjectDef idref="g119"/>
         </LinkProperty>
       </LinkProperties>
       <FromLinkProperty idref="g98"/>
@@ -3971,28 +3973,28 @@
     </Link>
   </links>
   <Changes total="24">
-    <Change id="g239">
+    <Change id="g265">
       <UpdateCode>-- OBJECT Pojo Added</UpdateCode>
       <Object idref="g100"/>
       <Type>0</Type>
       <DisplayName>OBJECT Pojo Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g240">
+    <Change id="g266">
       <UpdateCode>-- OBJECT PojoRegularProperty Added</UpdateCode>
-      <Object idref="g200"/>
+      <Object idref="g201"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoRegularProperty Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g241">
+    <Change id="g268">
       <UpdateCode>-- OBJECT PojoLinkOne Added</UpdateCode>
-      <Object idref="g155"/>
+      <Object idref="g143"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoLinkOne Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g242">
+    <Change id="g270">
       <UpdateCode><![CDATA[-- LINK a pojo has many pojoRegularProperties Added
 ALTER TABLE PojoRegularProperty ADD COLUMN PojoId int;
 ALTER TABLE PojoRegularProperty ADD CONSTRAINT FkPojoRegularPropertyPojo FOREIGN KEY (PojoId) REFERENCES Pojo (Id);
@@ -4002,14 +4004,14 @@ CREATE INDEX PojoRegularPropertyPojo ON PojoRegularProperty (PojoId);]]></Update
       <DisplayName>LINK a pojo has many pojoRegularProperties Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g243">
+    <Change id="g271">
       <UpdateCode>-- OBJECT PojoLinkFkey Added</UpdateCode>
-      <Object idref="g143"/>
+      <Object idref="g131"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoLinkFkey Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g244">
+    <Change id="g273">
       <UpdateCode><![CDATA[-- LINK a pojoLinkOne has many pojoLinkFkeys Added
 ALTER TABLE PojoLinkFkey ADD COLUMN PojoLinkOneId int;
 ALTER TABLE PojoLinkFkey ADD CONSTRAINT FkPojoLinkFkeyPojoLinkOne FOREIGN KEY (PojoLinkOneId) REFERENCES PojoLinkOne (Id);
@@ -4019,14 +4021,14 @@ CREATE INDEX PojoLinkFkeyPojoLinkOne ON PojoLinkFkey (PojoLinkOneId);]]></Update
       <DisplayName>LINK a pojoLinkOne has many pojoLinkFkeys Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g245">
+    <Change id="g274">
       <UpdateCode>-- OBJECT PojoImportMatch Added</UpdateCode>
       <Object idref="g110"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoImportMatch Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g246">
+    <Change id="g282">
       <UpdateCode><![CDATA[-- LINK a pojoLinkOne has many pojoImportMatches Added
 ALTER TABLE PojoImportMatch ADD CONSTRAINT FkPojoImportMatchPojoLinkOne FOREIGN KEY () REFERENCES PojoLinkOne ();
 CREATE INDEX PojoImportMatchPojoLinkOne ON PojoImportMatch ();]]></UpdateCode>
@@ -4035,14 +4037,14 @@ CREATE INDEX PojoImportMatchPojoLinkOne ON PojoImportMatch ();]]></UpdateCode>
       <DisplayName>LINK a pojoLinkOne has many pojoImportMatches Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g247">
+    <Change id="g283">
       <UpdateCode>-- OBJECT PojoLinkUnique Added</UpdateCode>
       <Object idref="g168"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoLinkUnique Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g248">
+    <Change id="g284">
       <UpdateCode><![CDATA[-- LINK a pojoLinkOne has a pojoLinkUnique Added
 ALTER TABLE PojoLinkUnique ADD CONSTRAINT FkPojoLinkUniquePojoLinkOne FOREIGN KEY () REFERENCES PojoLinkOne ();
 CREATE INDEX PojoLinkUniquePojoLinkOne ON PojoLinkUnique ();]]></UpdateCode>
@@ -4051,14 +4053,14 @@ CREATE INDEX PojoLinkUniquePojoLinkOne ON PojoLinkUnique ();]]></UpdateCode>
       <DisplayName>LINK a pojoLinkOne has a pojoLinkUnique Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g249">
+    <Change id="g285">
       <UpdateCode>-- OBJECT PojoProperty Added</UpdateCode>
       <Object idref="g177"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoProperty Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g250">
+    <Change id="g286">
       <UpdateCode><![CDATA[-- LINK a pojoRegularProperty has a pojoProperty Added
 ALTER TABLE PojoProperty ADD COLUMN PojoRegularPropertyId int;
 ALTER TABLE PojoProperty ADD CONSTRAINT FkPojoPropertyPojoRegularProperty FOREIGN KEY (PojoRegularPropertyId) REFERENCES PojoRegularProperty (Id);
@@ -4068,7 +4070,7 @@ CREATE INDEX PojoPropertyPojoRegularProperty ON PojoProperty (PojoRegularPropert
       <DisplayName>LINK a pojoRegularProperty has a pojoProperty Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g251">
+    <Change id="g287">
       <UpdateCode><![CDATA[-- LINK a pojoProperty has a pojoLinkFkey Added
 ALTER TABLE PojoLinkFkey ADD COLUMN PojoPropertyId int;
 ALTER TABLE PojoLinkFkey ADD CONSTRAINT FkPojoLinkFkeyPojoProperty FOREIGN KEY (PojoPropertyId) REFERENCES PojoProperty (Id);
@@ -4078,34 +4080,32 @@ CREATE INDEX PojoLinkFkeyPojoProperty ON PojoLinkFkey (PojoPropertyId);]]></Upda
       <DisplayName>LINK a pojoProperty has a pojoLinkFkey Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g252">
-      <UpdateCode>-- OBJECT PojoImportMatchLink Added</UpdateCode>
-      <Object idref="g119"/>
+    <Change id="g289">
+      <UpdateCode>-- OBJECT PojoLinkOneReference Added</UpdateCode>
+      <Object idref="g156"/>
       <Type>0</Type>
-      <DisplayName>OBJECT PojoImportMatchLink Added</DisplayName>
+      <DisplayName>OBJECT PojoLinkOneReference Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g253">
-      <UpdateCode><![CDATA[-- LINK a pojoImportMatch has a pojoImportMatchLink Added
-ALTER TABLE PojoImportMatchLink ADD COLUMN PojoImportMatchId int;
-ALTER TABLE PojoImportMatchLink ADD CONSTRAINT FkPojoImportMatchLinkPojoImportMatch FOREIGN KEY (PojoImportMatchId) REFERENCES PojoImportMatch (Id);
-CREATE INDEX PojoImportMatchLinkPojoImportMatch ON PojoImportMatchLink (PojoImportMatchId);]]></UpdateCode>
+    <Change id="g290">
+      <UpdateCode><![CDATA[-- LINK a pojoImportMatch has a pojoLinkOneReference Added
+ALTER TABLE PojoLinkOneReference ADD CONSTRAINT FkPojoLinkOneReferencePojoImportMatch FOREIGN KEY () REFERENCES PojoImportMatch ();
+CREATE INDEX PojoLinkOneReferencePojoImportMatch ON PojoLinkOneReference ();]]></UpdateCode>
       <Object idref="g76"/>
       <Type>21</Type>
-      <DisplayName>LINK a pojoImportMatch has a pojoImportMatchLink Added</DisplayName>
+      <DisplayName>LINK a pojoImportMatch has a pojoLinkOneReference Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g254">
-      <UpdateCode><![CDATA[-- LINK a pojoImportMatchLink has a pojoLinkOne Added
-ALTER TABLE PojoImportMatchLink ADD COLUMN PojoLinkOneId int;
-ALTER TABLE PojoImportMatchLink ADD CONSTRAINT FkPojoImportMatchLinkPojoLinkOne FOREIGN KEY (PojoLinkOneId) REFERENCES PojoLinkOne (Id);
-CREATE INDEX PojoImportMatchLinkPojoLinkOne ON PojoImportMatchLink (PojoLinkOneId);]]></UpdateCode>
+    <Change id="g295">
+      <UpdateCode><![CDATA[-- LINK a pojoLinkOneReference has a pojoLinkOne Added
+ALTER TABLE PojoLinkOneReference ADD CONSTRAINT FkPojoLinkOneReferencePojoLinkOne FOREIGN KEY () REFERENCES PojoLinkOne ();
+CREATE INDEX PojoLinkOneReferencePojoLinkOne ON PojoLinkOneReference ();]]></UpdateCode>
       <Object idref="g79"/>
       <Type>21</Type>
-      <DisplayName>LINK a pojoImportMatchLink has a pojoLinkOne Added</DisplayName>
+      <DisplayName>LINK a pojoLinkOneReference has a pojoLinkOne Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g255">
+    <Change id="g296">
       <UpdateCode><![CDATA[-- LINK a pojoImportMatch has a pojoProperty Added
 ALTER TABLE PojoProperty ADD COLUMN PojoImportMatchId int;
 ALTER TABLE PojoProperty ADD CONSTRAINT FkPojoPropertyPojoImportMatch FOREIGN KEY (PojoImportMatchId) REFERENCES PojoImportMatch (Id);
@@ -4115,14 +4115,14 @@ CREATE INDEX PojoPropertyPojoImportMatch ON PojoProperty (PojoImportMatchId);]]>
       <DisplayName>LINK a pojoImportMatch has a pojoProperty Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g256">
+    <Change id="g297">
       <UpdateCode>-- OBJECT PojoLink Added</UpdateCode>
-      <Object idref="g131"/>
+      <Object idref="g119"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoLink Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g257">
+    <Change id="g299">
       <UpdateCode><![CDATA[-- LINK a pojo has many pojoLinks Added
 ALTER TABLE PojoLink ADD COLUMN PojoId int;
 ALTER TABLE PojoLink ADD CONSTRAINT FkPojoLinkPojo FOREIGN KEY (PojoId) REFERENCES Pojo (Id);
@@ -4132,7 +4132,7 @@ CREATE INDEX PojoLinkPojo ON PojoLink (PojoId);]]></UpdateCode>
       <DisplayName>LINK a pojo has many pojoLinks Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g258">
+    <Change id="g300">
       <UpdateCode><![CDATA[-- LINK a pojoLink has a pojoLinkOne Added
 ALTER TABLE PojoLinkOne ADD COLUMN PojoLinkId int;
 ALTER TABLE PojoLinkOne ADD CONSTRAINT FkPojoLinkOnePojoLink FOREIGN KEY (PojoLinkId) REFERENCES PojoLink (Id);
@@ -4142,7 +4142,7 @@ CREATE INDEX PojoLinkOnePojoLink ON PojoLinkOne (PojoLinkId);]]></UpdateCode>
       <DisplayName>LINK a pojoLink has a pojoLinkOne Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g259">
+    <Change id="g301">
       <UpdateCode><![CDATA[-- LINK a pojoLinkUnique has a pojoProperty Added
 ALTER TABLE PojoProperty ADD COLUMN PojoLinkUniqueId int;
 ALTER TABLE PojoProperty ADD CONSTRAINT FkPojoPropertyPojoLinkUnique FOREIGN KEY (PojoLinkUniqueId) REFERENCES PojoLinkUnique (Id);
@@ -4152,24 +4152,23 @@ CREATE INDEX PojoPropertyPojoLinkUnique ON PojoProperty (PojoLinkUniqueId);]]></
       <DisplayName>LINK a pojoLinkUnique has a pojoProperty Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g260">
-      <UpdateCode><![CDATA[-- LINK a pojoLinkUnique has a pojoImportMatchLink Added
-ALTER TABLE PojoImportMatchLink ADD COLUMN PojoLinkUniqueId int;
-ALTER TABLE PojoImportMatchLink ADD CONSTRAINT FkPojoImportMatchLinkPojoLinkUnique FOREIGN KEY (PojoLinkUniqueId) REFERENCES PojoLinkUnique (Id);
-CREATE INDEX PojoImportMatchLinkPojoLinkUnique ON PojoImportMatchLink (PojoLinkUniqueId);]]></UpdateCode>
+    <Change id="g302">
+      <UpdateCode><![CDATA[-- LINK a pojoLinkUnique has a pojoLinkOneReference Added
+ALTER TABLE PojoLinkOneReference ADD CONSTRAINT FkPojoLinkOneReferencePojoLinkUnique FOREIGN KEY () REFERENCES PojoLinkUnique ();
+CREATE INDEX PojoLinkOneReferencePojoLinkUnique ON PojoLinkOneReference ();]]></UpdateCode>
       <Object idref="g94"/>
       <Type>21</Type>
-      <DisplayName>LINK a pojoLinkUnique has a pojoImportMatchLink Added</DisplayName>
+      <DisplayName>LINK a pojoLinkUnique has a pojoLinkOneReference Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g261">
+    <Change id="g303">
       <UpdateCode>-- OBJECT PojoLinkMany Added</UpdateCode>
-      <Object idref="g150"/>
+      <Object idref="g138"/>
       <Type>0</Type>
       <DisplayName>OBJECT PojoLinkMany Added</DisplayName>
       <model idref="g57"/>
     </Change>
-    <Change id="g262">
+    <Change id="g305">
       <UpdateCode><![CDATA[-- LINK a pojoLink has a pojoLinkMany Added
 ALTER TABLE PojoLinkMany ADD CONSTRAINT FkPojoLinkManyPojoLink FOREIGN KEY () REFERENCES PojoLink ();
 CREATE INDEX PojoLinkManyPojoLink ON PojoLinkMany ();]]></UpdateCode>
@@ -4179,7 +4178,7 @@ CREATE INDEX PojoLinkManyPojoLink ON PojoLinkMany ();]]></UpdateCode>
       <model idref="g57"/>
     </Change>
   </Changes>
-  <DBMetaData id="g207">
+  <DBMetaData id="g211">
     <Name>Other</Name>
     <DatabaseType>0</DatabaseType>
     <FkeysAutoCreateIndex>false</FkeysAutoCreateIndex>
@@ -4208,97 +4207,97 @@ CREATE INDEX PojoLinkManyPojoLink ON PojoLinkMany ();]]></UpdateCode>
     <LikeKeyword>LIKE</LikeKeyword>
   </DBMetaData>
   <ObjectCallbackTypes total="31">
-    <ObjectCallbackType id="g208">
+    <ObjectCallbackType id="g215">
       <Name>Unknown</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g209">
+    <ObjectCallbackType id="g217">
       <Name>AllowEnabled</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g210">
+    <ObjectCallbackType id="g219">
       <Name>AllowVisible</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g211">
+    <ObjectCallbackType id="g220">
       <Name>AllowNew</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g212">
+    <ObjectCallbackType id="g221">
       <Name>AllowAdd</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g213">
+    <ObjectCallbackType id="g223">
       <Name>AllowRemove</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g214">
+    <ObjectCallbackType id="g224">
       <Name>AllowRemoveAll</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g215">
+    <ObjectCallbackType id="g225">
       <Name>AllowDelete</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g216">
+    <ObjectCallbackType id="g227">
       <Name>AllowSave</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g217">
+    <ObjectCallbackType id="g228">
       <Name>AllowCopy</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g218">
+    <ObjectCallbackType id="g229">
       <Name>AllowSubmit</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g219">
+    <ObjectCallbackType id="g230">
       <Name>VerifyPropertyChange</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g220">
+    <ObjectCallbackType id="g231">
       <Name>VerifyAdd</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g221">
+    <ObjectCallbackType id="g233">
       <Name>VerifyRemove</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g222">
+    <ObjectCallbackType id="g234">
       <Name>VerifyRemoveAll</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g223">
+    <ObjectCallbackType id="g241">
       <Name>VerifyDelete</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g224">
+    <ObjectCallbackType id="g242">
       <Name>VerifySave</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g225">
+    <ObjectCallbackType id="g244">
       <Name>VerifyCommand</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g226">
+    <ObjectCallbackType id="g246">
       <Name>GetCopy</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g227">
+    <ObjectCallbackType id="g247">
       <Name>AfterCopy</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g228">
+    <ObjectCallbackType id="g249">
       <Name>SetConfirmForPropertyChange</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g229">
+    <ObjectCallbackType id="g250">
       <Name>SetConfirmForAdd</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g230">
+    <ObjectCallbackType id="g252">
       <Name>SetConfirmForRemove</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g231">
+    <ObjectCallbackType id="g253">
       <Name>SetConfirmForRemoveAll</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g232">
+    <ObjectCallbackType id="g254">
       <Name>SetConfirmForDelete</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g233">
+    <ObjectCallbackType id="g255">
       <Name>SetConfirmForSave</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g234">
+    <ObjectCallbackType id="g256">
       <Name>SetConfirmForCommand</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g235">
+    <ObjectCallbackType id="g258">
       <Name>GetToolTip</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g236">
+    <ObjectCallbackType id="g260">
       <Name>RenderLabel</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g237">
+    <ObjectCallbackType id="g261">
       <Name>UpdateLabel</Name>
     </ObjectCallbackType>
-    <ObjectCallbackType id="g238">
+    <ObjectCallbackType id="g262">
       <Name>GetFormat</Name>
     </ObjectCallbackType>
   </ObjectCallbackTypes>
