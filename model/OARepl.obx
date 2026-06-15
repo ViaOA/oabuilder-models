@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OAXML VERSION='2.0' DATETIME='03/18/26 09:45 PM'>
+<Model id="g4458" class="com.viaoa.builder.model.Model">
+  <SizeType>1</SizeType>
+  <HilitePojo>false</HilitePojo>
+  <ShowLookups>true</ShowLookups>
+  <MinimizeLookups>false</MinimizeLookups>
+  <ShowHiddenObjects>true</ShowHiddenObjects>
+  <ShowAllLinks>true</ShowAllLinks>
+  <Hilite>true</Hilite>
+  <ShowObjectCalcs>false</ShowObjectCalcs>
+  <ShowObjectMethods>false</ShowObjectMethods>
+  <LinkMode>false</LinkMode>
+  <MoveMode>false</MoveMode>
+  <UseDoubleInsteadOfBigDecimal>false</UseDoubleInsteadOfBigDecimal>
+  <UseIdentifyPkey>false</UseIdentifyPkey>
+  <OABuilderVersion>202409170</OABuilderVersion>
+  <LowerName>untitled</LowerName>
+  <RootDirectory>\home\vvia\OAReplication</RootDirectory>
+  <SourceDirectory>src\main\java</SourceDirectory>
+  <Scale>1.0</Scale>
+  <Name>Untitled</Name>
+  <FileName>/home/vvia/git/oabuilder-models/model/OARepl.obx</FileName>
+  <PackageName>com.viaoa.repl</PackageName>
+  <DisplayName>Untitled</DisplayName>
+  <objectDefs total="3">
+    <ObjectDef id="g4502">
+      <Created>2026-03-18</Created>
+      <PkeyDataSourceName>PkReplicationClient</PkeyDataSourceName>
+      <PluralDisplayName>Replication Clients</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>520,116,125,77</Bounds>
+      <DataSourceName>ReplicationClient</DataSourceName>
+      <PluralName>ReplicationClients</PluralName>
+      <LowerName>replicationClient</LowerName>
+      <PluralLowerName>replicationClients</PluralLowerName>
+      <ShortName>rpc</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>ReplicationClient</Name>
+      <DisplayName>Replication Client</DisplayName>
+      <model idref="g4458"/>
+      <properties total="3">
+        <Property id="g4503">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Id</GridColumnName>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <Unique>true</Unique>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2026-03-18</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g4502"/>
+        </Property>
+        <Property id="g4506">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Created</GridColumnName>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <GridColumnLength>15</GridColumnLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxLength>40</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>DateTime</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g4502"/>
+        </Property>
+        <Property id="g4532">
+          <DataSourceName>Cnt</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Cnt</GridColumnName>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>long</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>Cnt</UpperName>
+          <Name>cnt</Name>
+          <DisplayName>Cnt</DisplayName>
+          <objectDef idref="g4502"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g4522"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g4509">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g4502"/>
+        <EndProperty idref="g4503"/>
+        <Property idref="g4503"/>
+        <ToObjectDef idref="g4502"/>
+      </DisplayPropertyPath>
+      <UIProperties total="4">
+        <UIProperty id="g4504">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4502"/>
+          <PropertyPath id="g4505">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g4502"/>
+            <EndProperty idref="g4503"/>
+            <Property idref="g4503"/>
+            <ToObjectDef idref="g4502"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4507">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4502"/>
+          <PropertyPath id="g4508">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g4502"/>
+            <EndProperty idref="g4506"/>
+            <Property idref="g4506"/>
+            <ToObjectDef idref="g4502"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4525">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g4502"/>
+          <PropertyPath id="g4526">
+            <PropertyPath>replicationMaster</PropertyPath>
+            <FromObjectDef idref="g4502"/>
+            <EndProperty idref="g4522"/>
+            <LastLinkProperty idref="g4522"/>
+            <Property idref="g4522"/>
+            <ToObjectDef idref="g4493"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4533">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4502"/>
+          <PropertyPath id="g4534">
+            <PropertyPath>cnt</PropertyPath>
+            <FromObjectDef idref="g4502"/>
+            <EndProperty idref="g4532"/>
+            <Property idref="g4532"/>
+            <ToObjectDef idref="g4502"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g4511">
+      <Created>2026-03-18</Created>
+      <PkeyDataSourceName>PkReplicationLog</PkeyDataSourceName>
+      <PluralDisplayName>Replication Logs</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>318,201,111,60</Bounds>
+      <DataSourceName>ReplicationLog</DataSourceName>
+      <PluralName>ReplicationLogs</PluralName>
+      <LowerName>replicationLog</LowerName>
+      <PluralLowerName>replicationLogs</PluralLowerName>
+      <ShortName>rpl</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>ReplicationLog</Name>
+      <DisplayName>Replication Log</DisplayName>
+      <model idref="g4458"/>
+      <properties total="2">
+        <Property id="g4512">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Id</GridColumnName>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <Unique>true</Unique>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2026-03-18</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g4511"/>
+        </Property>
+        <Property id="g4515">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Created</GridColumnName>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <GridColumnLength>15</GridColumnLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxLength>40</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>DateTime</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g4511"/>
+        </Property>
+      </properties>
+      <DisplayPropertyPath id="g4518">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g4511"/>
+        <EndProperty idref="g4512"/>
+        <Property idref="g4512"/>
+        <ToObjectDef idref="g4511"/>
+      </DisplayPropertyPath>
+      <UIProperties total="2">
+        <UIProperty id="g4513">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4511"/>
+          <PropertyPath id="g4514">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g4511"/>
+            <EndProperty idref="g4512"/>
+            <Property idref="g4512"/>
+            <ToObjectDef idref="g4511"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4516">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4511"/>
+          <PropertyPath id="g4517">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g4511"/>
+            <EndProperty idref="g4515"/>
+            <Property idref="g4515"/>
+            <ToObjectDef idref="g4511"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+    <ObjectDef id="g4493">
+      <Created>2026-03-18</Created>
+      <PkeyDataSourceName>PkReplicationMaster</PkeyDataSourceName>
+      <PluralDisplayName>Replication Masters</PluralDisplayName>
+      <AddToCache>true</AddToCache>
+      <Bounds>179,71,130,77</Bounds>
+      <DataSourceName>ReplicationMaster</DataSourceName>
+      <PluralName>ReplicationMasters</PluralName>
+      <LowerName>replicationMaster</LowerName>
+      <PluralLowerName>replicationMasters</PluralLowerName>
+      <ShortName>rpm</ShortName>
+      <LocalOnly>false</LocalOnly>
+      <InitializeNewObjects>true</InitializeNewObjects>
+      <UseDataSource>true</UseDataSource>
+      <Name>ReplicationMaster</Name>
+      <DisplayName>Replication Master</DisplayName>
+      <model idref="g4458"/>
+      <properties total="3">
+        <Property id="g4494">
+          <AutoAssign>true</AutoAssign>
+          <UniqueId>true</UniqueId>
+          <DontTrackPrimitiveNull>true</DontTrackPrimitiveNull>
+          <DataSourceName>Id</DataSourceName>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Id</GridColumnName>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <Unique>true</Unique>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>int</Type>
+          <Hide>true</Hide>
+          <Created>2026-03-18</Created>
+          <UpperName>Id</UpperName>
+          <Name>id</Name>
+          <DisplayName>Id</DisplayName>
+          <objectDef idref="g4493"/>
+        </Property>
+        <Property id="g4497">
+          <DataSourceName>Created</DataSourceName>
+          <Processed>true</Processed>
+          <DefaultValue>new OADateTime()</DefaultValue>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Created</GridColumnName>
+          <MaxDisplayLength>22</MaxDisplayLength>
+          <GridColumnLength>15</GridColumnLength>
+          <DisplayLength>15</DisplayLength>
+          <MaxLength>40</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>DateTime</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>Created</UpperName>
+          <Name>created</Name>
+          <DisplayName>Created</DisplayName>
+          <objectDef idref="g4493"/>
+        </Property>
+        <Property id="g4529">
+          <DataSourceName>Seq</DataSourceName>
+          <Processed>false</Processed>
+          <Timestamp>false</Timestamp>
+          <GridColumnName>Seq</GridColumnName>
+          <MaxDisplayLength>8</MaxDisplayLength>
+          <GridColumnLength>6</GridColumnLength>
+          <DisplayLength>6</DisplayLength>
+          <MaxLength>20</MaxLength>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Type>long</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>Seq</UpperName>
+          <Name>seq</Name>
+          <DisplayName>Seq</DisplayName>
+          <objectDef idref="g4493"/>
+        </Property>
+      </properties>
+      <LinkProperties total="1">
+        <LinkProperty idref="g4521"/>
+      </LinkProperties>
+      <DisplayPropertyPath id="g4500">
+        <PropertyPath>id</PropertyPath>
+        <FromObjectDef idref="g4493"/>
+        <EndProperty idref="g4494"/>
+        <Property idref="g4494"/>
+        <ToObjectDef idref="g4493"/>
+      </DisplayPropertyPath>
+      <UIProperties total="4">
+        <UIProperty id="g4495">
+          <Seq>0</Seq>
+          <Use>false</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4493"/>
+          <PropertyPath id="g4496">
+            <PropertyPath>id</PropertyPath>
+            <FromObjectDef idref="g4493"/>
+            <EndProperty idref="g4494"/>
+            <Property idref="g4494"/>
+            <ToObjectDef idref="g4493"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4498">
+          <Seq>1</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4493"/>
+          <PropertyPath id="g4499">
+            <PropertyPath>created</PropertyPath>
+            <FromObjectDef idref="g4493"/>
+            <EndProperty idref="g4497"/>
+            <Property idref="g4497"/>
+            <ToObjectDef idref="g4493"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4523">
+          <Seq>2</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <UseTree>false</UseTree>
+          <ObjectDef idref="g4493"/>
+          <PropertyPath id="g4524">
+            <PropertyPath>replicationClients</PropertyPath>
+            <FromObjectDef idref="g4493"/>
+            <EndProperty idref="g4521"/>
+            <LastLinkProperty idref="g4521"/>
+            <Property idref="g4521"/>
+            <ToObjectDef idref="g4502"/>
+          </PropertyPath>
+        </UIProperty>
+        <UIProperty id="g4530">
+          <Seq>3</Seq>
+          <Use>true</Use>
+          <UseReport>true</UseReport>
+          <ObjectDef idref="g4493"/>
+          <PropertyPath id="g4531">
+            <PropertyPath>seq</PropertyPath>
+            <FromObjectDef idref="g4493"/>
+            <EndProperty idref="g4529"/>
+            <Property idref="g4529"/>
+            <ToObjectDef idref="g4493"/>
+          </PropertyPath>
+        </UIProperty>
+      </UIProperties>
+    </ObjectDef>
+  </objectDefs>
+  <links total="1">
+    <Link id="g4520">
+      <Width>223</Width>
+      <Model idref="g4458"/>
+      <LinkProperties total="2">
+        <LinkProperty id="g4522">
+          <CreateAdd>true</CreateAdd>
+          <CreateNew>false</CreateNew>
+          <Owned>false</Owned>
+          <IndexDataSourceName>ReplicationClientReplicationMaster</IndexDataSourceName>
+          <FkeyDataSourceName>FkReplicationClientReplicationMaster</FkeyDataSourceName>
+          <YPos>55</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <ImportMatch>false</ImportMatch>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <Type>0</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>ReplicationMaster</UpperName>
+          <Name>replicationMaster</Name>
+          <DisplayName>Replication Master</DisplayName>
+          <Link idref="g4520"/>
+          <ObjectDef idref="g4493"/>
+          <OwnerObjectDef idref="g4502"/>
+          <LinkFKeys total="1">
+            <LinkFKey id="g4527">
+              <DataSourceName>ReplicationMasterId</DataSourceName>
+              <LinkProperty idref="g4522"/>
+              <Property idref="g4494"/>
+            </LinkFKey>
+          </LinkFKeys>
+        </LinkProperty>
+        <LinkProperty id="g4521">
+          <CreateAdd>true</CreateAdd>
+          <CreateNew>true</CreateNew>
+          <Owned>false</Owned>
+          <YPos>45</YPos>
+          <CreateMethod>true</CreateMethod>
+          <Recursive>false</Recursive>
+          <AllowDelete>true</AllowDelete>
+          <ImportMatch>false</ImportMatch>
+          <CascadeSave>false</CascadeSave>
+          <CascadeDelete>false</CascadeDelete>
+          <AutoCreateNew>false</AutoCreateNew>
+          <Required>false</Required>
+          <Type>1</Type>
+          <Created>2026-03-18</Created>
+          <UpperName>ReplicationClients</UpperName>
+          <Name>replicationClients</Name>
+          <DisplayName>Replication Clients</DisplayName>
+          <Link idref="g4520"/>
+          <ObjectDef idref="g4502"/>
+          <OwnerObjectDef idref="g4493"/>
+        </LinkProperty>
+      </LinkProperties>
+      <FromLinkProperty idref="g4522"/>
+      <ToLinkProperty idref="g4521"/>
+    </Link>
+  </links>
+  <Changes total="4">
+    <Change id="g4501">
+      <UpdateCode><![CDATA[-- OBJECT ReplicationMaster Added
+-- Table ReplicationMaster For ReplicationMaster
+CREATE TABLE ReplicationMaster(
+    Id int NOT NULL,
+    Created DATETIME DEFAULT CURRENT_TIMESTAMP,
+    Seq long
+);
+ALTER TABLE ReplicationMaster Add Constraint PkReplicationMaster PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g4493"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT ReplicationMaster Added</DisplayName>
+      <model idref="g4458"/>
+    </Change>
+    <Change id="g4510">
+      <UpdateCode><![CDATA[-- OBJECT ReplicationClient Added
+-- Table ReplicationClient For ReplicationClient
+CREATE TABLE ReplicationClient(
+    Id int NOT NULL,
+    Created DATETIME DEFAULT CURRENT_TIMESTAMP,
+    Cnt long
+);
+ALTER TABLE ReplicationClient Add Constraint PkReplicationClient PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g4502"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT ReplicationClient Added</DisplayName>
+      <model idref="g4458"/>
+    </Change>
+    <Change id="g4519">
+      <UpdateCode><![CDATA[-- OBJECT ReplicationLog Added
+-- Table ReplicationLog For ReplicationLog
+CREATE TABLE ReplicationLog(
+    Id int NOT NULL,
+    Created DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE ReplicationLog Add Constraint PkReplicationLog PRIMARY KEY (Id);
+ ]]></UpdateCode>
+      <Object idref="g4511"/>
+      <Type>0</Type>
+      <DisplayName>OBJECT ReplicationLog Added</DisplayName>
+      <model idref="g4458"/>
+    </Change>
+    <Change id="g4528">
+      <UpdateCode><![CDATA[-- LINK a replicationMaster has many replicationClients Added
+ALTER TABLE ReplicationClient ADD COLUMN ReplicationMasterId int;
+ALTER TABLE ReplicationClient ADD CONSTRAINT FkReplicationClientReplicationMaster FOREIGN KEY (ReplicationMasterId) REFERENCES ReplicationMaster (Id);
+CREATE INDEX ReplicationClientReplicationMaster ON ReplicationClient (ReplicationMasterId);]]></UpdateCode>
+      <Object idref="g4520"/>
+      <Type>21</Type>
+      <DisplayName>LINK a replicationMaster has many replicationClients Added</DisplayName>
+      <model idref="g4458"/>
+    </Change>
+  </Changes>
+  <DBMetaData id="g4460">
+    <LeftBracket></LeftBracket>
+    <RightBracket></RightBracket>
+    <DistinctKeyword>DISTINCT</DistinctKeyword>
+    <OuterjoinStart></OuterjoinStart>
+    <OuterjoinEnd></OuterjoinEnd>
+    <LikeKeyword>LIKE</LikeKeyword>
+  </DBMetaData>
+  <ObjectCallbackTypes total="31">
+    <ObjectCallbackType id="g4462">
+      <Name>Unknown</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4463">
+      <Name>AllowEnabled</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4464">
+      <Name>AllowVisible</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4465">
+      <Name>AllowNew</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4466">
+      <Name>AllowAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4467">
+      <Name>AllowRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4468">
+      <Name>AllowRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4469">
+      <Name>AllowDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4470">
+      <Name>AllowSave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4471">
+      <Name>AllowCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4472">
+      <Name>AllowSubmit</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4473">
+      <Name>VerifyPropertyChange</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4474">
+      <Name>VerifyAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4475">
+      <Name>VerifyRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4476">
+      <Name>VerifyRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4477">
+      <Name>VerifyDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4478">
+      <Name>VerifySave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4479">
+      <Name>VerifyCommand</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4480">
+      <Name>GetCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4481">
+      <Name>AfterCopy</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4482">
+      <Name>SetConfirmForPropertyChange</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4483">
+      <Name>SetConfirmForAdd</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4484">
+      <Name>SetConfirmForRemove</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4485">
+      <Name>SetConfirmForRemoveAll</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4486">
+      <Name>SetConfirmForDelete</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4487">
+      <Name>SetConfirmForSave</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4488">
+      <Name>SetConfirmForCommand</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4489">
+      <Name>GetToolTip</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4490">
+      <Name>RenderLabel</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4491">
+      <Name>UpdateLabel</Name>
+    </ObjectCallbackType>
+    <ObjectCallbackType id="g4492">
+      <Name>GetFormat</Name>
+    </ObjectCallbackType>
+  </ObjectCallbackTypes>
+</Model>
+</OAXML>
